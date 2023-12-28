@@ -3,5 +3,5 @@ let sayHi = function () {
     alert('Hello world')
 };
 
-// sayHi();
-alert(sayHi);
+sayHi();
+// alert(sayHi);
