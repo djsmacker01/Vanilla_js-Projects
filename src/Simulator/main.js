@@ -1,4 +1,4 @@
-document.querySelectorAll('#sim').addEventListener('click', run)
+document.querySelector('#sim').addEventListener('click', run)
 
 function run() { 
     const fName = document.querySelector('#firstName').value
