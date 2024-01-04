@@ -9,7 +9,7 @@
 //     document.querySelector('#container').innerHTML = `My Names are ${fName} ${mName} ${mName}, i'am ${age} years old`
 
 // }
-const test = document.querySelector('#firstName')
+// const test = document.querySelector('#firstName')
 // console.log(test)
 document.querySelector('#sim').addEventListener('click', run);
 
