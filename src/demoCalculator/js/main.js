@@ -7,20 +7,20 @@ const zeroValue = () => {
 
 const add3 = () => { 
     listTotal += 3
-    document.querySelect('#outcomeList').innerHTML = listTotal
+    document.querySelector('#outcomeList').innerHTML = listTotal
 }
 
 const add8 = () => { 
     listTotal += 8
-    document.querySelect('#outcomeList').innerHTML = listTotal
+    document.querySelector('#outcomeList').innerHTML = listTotal
 }
 
 const sub2 = () => {
     listTotal -= 2
-    document.querySelect('#outcomeList').innerHTML = listTotal
+    document.querySelector('#outcomeList').innerHTML = listTotal
 }
 
-document.querySelect('#pumpkin').addEventListener('click', zeroValue)
-document.querySelect('#dominosPizza').addEventListener('click', add3)
-document.querySelect('#MeatPie').addEventListener('click', add8)
-document.querySelect('#iceCream').addEventListener('click', sub2)
+document.querySelector('#pumpkin').addEventListener('click', zeroValue)
+document.querySelector('#dominosPizza').addEventListener('click', add3)
+document.querySelector('#MeatPie').addEventListener('click', add8)
+document.querySelector('#iceCream').addEventListener('click', sub2)
