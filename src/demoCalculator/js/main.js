@@ -20,4 +20,7 @@ const sub2 = () => {
     document.querySelect('#outcomeList').innerHTML = listTotal
 }
 
-document.querySelect('#pumpkin').addEventListener('click',zeroValue)
+document.querySelect('#pumpkin').addEventListener('click', zeroValue)
+document.querySelect('#dominosPizza').addEventListener('click', add3)
+document.querySelect('#MeatPie').addEventListener('click', add8)
+document.querySelect('#iceCream').addEventListener('click', sub2)
