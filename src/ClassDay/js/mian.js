@@ -1,15 +1,19 @@
-document.querySelector('#check').addEventListener('click', check)
 
-const checkBox = () => {
+const check = () => {
     const day = document.querySelector('#day').value
 
-    if (day === 'monday' || day === 'tuesday' || day === 'thursday') {
-        alert('Class Day')
+    if (day === 'Monday' || day === 'Tuesday' || day === 'Thursday') {
+      
+        document.querySelector('#placeToSee').innerHTML = 'Class Day'
         
-    } else if (day === 'saturday' || day === 'sunday') {
-        alert('Boring weekend')
+    } else if (day === 'Saturday' || day === 'Sunday') {
+
+        document.querySelector('#placeToSee').innerHTML = 'weekend'
      }
     else {
-        alert('Invalid input, Try again')
+    
+        document.querySelector('#placeToSee').innerHTML = 'Borring day'
         }
-    }
+}
+    document.querySelector('#check').addEventListener('click', check)
+
