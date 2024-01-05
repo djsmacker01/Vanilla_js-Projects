@@ -1,6 +1,6 @@
 
 const check = () => {
-    const day = document.querySelector('#day').value;
+    const day = document.querySelector('#day').value.toLower();
 
     if (day === 'Monday' || day === 'Tuesday' || day === 'Thursday') {
       
