@@ -1,3 +1,4 @@
+const synth = window.speechSynthesis
 // document.querySelector('#sim').addEventListener('click', run)
 
 // function run() {
@@ -19,7 +20,8 @@ function run() {
     const mName = document.querySelector('#middleName').value;
     const age = document.querySelector('#age').value;
 
-    document.querySelector('#container').innerHTML = ` ${fName} ${mName} ${lName}  ${age} `;
+   const yellText = ` ${fName} ${mName} ${lName}  ${age} `;
+    document.querySelector('#container').innerHTML = 
 }
 
 
