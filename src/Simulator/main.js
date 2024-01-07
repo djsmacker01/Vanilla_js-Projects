@@ -23,7 +23,9 @@ function run() {
    const yellText = ` ${fName} ${mName} ${lName}  ${age} `;
     document.querySelector('#container').innerHTML = yellText;
 
-    let yellThis = new SpeechSynthesisUtterance(yellText, lName);
+    let yellThis = new SpeechSynthesisUtterance(yellText);
+
+    synth.speak(yellThis);
 }
 
 
