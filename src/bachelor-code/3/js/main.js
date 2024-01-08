@@ -11,8 +11,8 @@ function checkForRose(click){
 }
 
 
-// const claire = document.querySelector('#claire');
-// const nikki = document.querySelector('#nikki');
+const claire = document.querySelector('#claire');
+const nikki = document.querySelector('#nikki');
 
 //  document.querySelector('#contPrev').addEventListener('click', contPrev)
 // // console.log(test)
