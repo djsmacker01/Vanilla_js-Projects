@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(128, 194, 198);
+}
+#main-content{
+    /* border-radius: 10px; */
+    border: 5px solid rgb(91, 157, 91);
+}
+img{
+    width: 200px;
+    height:auto;
+
+}
+.list{
+    list-style: none;
+    
+}
