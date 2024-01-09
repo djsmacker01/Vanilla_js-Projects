@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 /* #container{
     background-color: grey;
     width: 500px;
@@ -9,6 +11,7 @@
 header, footer {
     height: 100px;
     border: 3px solid black;
+    clear: both;
 }
 .list {
     height: 300px;
