@@ -1,7 +1,37 @@
 /*Please make the li's blue, underlined, 15px, and have a gray background*/
+header > nav > ul >  li {
+color: blue;
+font-size: 15px;
+text-decoration: underline;
+background: grey;
+list-style: none;
+
+}
+
 
 /* Please make this section have a height of 300px, a light purple background, a gold border that is 5px thick */
+section{
+    height: 300px;
+    background: rgb(105, 56, 105);
+    border: 5px solid gold;
 
+}
+section > h1{
+    font-size: 30px;
+    color: gold;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
+
+footer{
+    background:rgb(126, 33, 33);
+    height: 300px;
+    width: 70%;
+}
+h2{
+text-decoration: line-through;
+}
 /* Please make this h1 30px, gold, centered, and use the Source Sans Pro Font */
 
 /* Please make this footer have a dark brown background, 300px in height, and only 70% width */
