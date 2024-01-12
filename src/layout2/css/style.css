@@ -33,7 +33,12 @@ header nav > *{
     float: left;
     width: 10%;
     margin: 0 5%;
+    list-style: none;
 
+}
+header nav ul > li {
+  float: left;
+  width: 33%;
 }
 
 
