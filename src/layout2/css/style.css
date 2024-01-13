@@ -48,7 +48,7 @@ main > section{
 }
 
 img{
-  /* width: 50%; */
+  width: 50%;
 }
 main > section h1, main > section img{
   margin-top: 200px;
