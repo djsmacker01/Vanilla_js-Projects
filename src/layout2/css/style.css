@@ -47,6 +47,13 @@ main > section{
   float: left;
 }
 
+img{
+  /* width: 50%; */
+}
+main > section h1, main > section img{
+  margin-top: 200px;
+}
+
 
 
 /******************************************
