@@ -41,6 +41,12 @@ header nav ul > li {
   width: 33%;
 }
 
+main > section{
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
 
 
 /******************************************
