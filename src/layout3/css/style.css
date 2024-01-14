@@ -41,8 +41,13 @@ nav *{
   color: white;
   display: block;
 }
+nav ul{
+  width: 50%;
+}
 
-
+nav form input{
+  width: 100%;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
