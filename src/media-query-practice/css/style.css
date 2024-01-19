@@ -56,8 +56,14 @@ main section, .bottom section{
 /* On laptop, please keep the normal layout, but everything should be light green */
 @media all and (min-width: 850px){
  main, .bottom{
- background-color: rgb(157, 173, 157);
+ background-color: rgb(77, 173, 77);
  
   }
 }
 /* On larger screens, please keep the normal layout, but everything should be light blue */
+@media all and (min-width: 1024px){
+ main, .bottom{
+ background-color: lightblue;
+ 
+  }
+}
