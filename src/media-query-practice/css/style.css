@@ -41,7 +41,13 @@ main section, .bottom section{
 /*******************************************/
 
 /* On mobile, please make all sections stack  */
-
+@media all and (max-width: 600px){
+ main section, .bottom section{
+  width: 100%;
+    /* display: block;
+    float: left; */
+  }
+}
 /* On tablet, please make the sections in main stack  */
 
 /* On laptop, please keep the normal layout, but everything should be light green */
