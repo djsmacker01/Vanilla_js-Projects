@@ -29,7 +29,9 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-nav,main,aside {
+
+/* Using Float */
+/* nav,main,aside {
   float: left;
   width: 10%;
 }
@@ -40,6 +42,13 @@ main{
 
 aside{
   width: 40%;
+} */
+
+
+/* Using Flex */
+
+body{
+  display: flex;
 }
 
 /******************************************
