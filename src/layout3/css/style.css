@@ -30,7 +30,7 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-height: 100px;
+height: 55px;
 background: black;
 color: white;
 }
@@ -49,6 +49,10 @@ nav form input{
   width: 100%;
 }
 
+main + section > section{
+  width: 33.3333%;
+  float: left;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
