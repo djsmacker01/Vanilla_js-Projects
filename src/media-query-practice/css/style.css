@@ -44,12 +44,20 @@ main section, .bottom section{
 @media all and (max-width: 600px){
  main section, .bottom section{
   width: 100%;
-    /* display: block;
-    float: left; */
+ 
   }
 }
 /* On tablet, please make the sections in main stack  */
-
+@media all and (max-width: 850px){
+ main > section{
+  width: 100%;
+  }
+}
 /* On laptop, please keep the normal layout, but everything should be light green */
-
+@media all and (min-width: 850px){
+ main, .bottom{
+ background-color: rgb(157, 173, 157);
+ 
+  }
+}
 /* On larger screens, please keep the normal layout, but everything should be light blue */
