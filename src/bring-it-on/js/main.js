@@ -53,3 +53,9 @@ multiplyThreeNum(9,9,9)
 
 //*Loops*
 //Create a function that takes in a word and a number. Console log the word x times where x was the number passed in
+function wordNumber(word, number) {
+    for (let i = 1; i <= number; i++) {
+        console.log(word)
+    }
+}
+wordNumber('Cheers!', 21)
