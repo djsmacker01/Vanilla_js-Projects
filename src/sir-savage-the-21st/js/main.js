@@ -6,7 +6,8 @@
 
 function printLoop() {
     for (let i = 1; i <= 21; i++) {
-    console.log(i);
+    document.getElementById('savageSays').innerText += ' 21'
+    // console.log('21');
 }
 }
 printLoop();
