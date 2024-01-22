@@ -10,14 +10,16 @@ console.log(num)
 //create a variable that holds a value from the input
 let inputValue = document.getElementById('danceDanceRevolution').value
 //add 25 to that number
-inputValue = inputValue + 25
-//alert that number
-alert(inputValue)
-//--- Hard
+// inputValue = inputValue + 25
+// //alert that number
+// alert(inputValue)
+// //--- Hard
 //create a variable that holds the h1
-const hiHolder = document.querySelector('h1').addEventListener('click', clickMe)
+const hiHolder = document.querySelector('h1').addEventListener('click', sum)
 
-function clickMe() {
+function sum() {
+let inputValue = document.getElementById('danceDanceRevolution').value
+
     console.log(num + Number(inputValue))
 }
 //add an event listener to that element that console logs the sum of the two previous variables
