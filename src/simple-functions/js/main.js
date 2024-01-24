@@ -26,6 +26,7 @@ console.log(multiply(8,2,3))
 function turnMoney() {
 let result = multiply(30,15,3);
     alert('£' + result);
+    console.log()
 }
 // turnMoney();
 //---Medium
