@@ -19,5 +19,9 @@ numArray.forEach((item, index) => {
 let sum = 0
 
 for (let i = 0; i < numArray.length; i++){
-    sum
+    sum += numArray[i]
+let res = sum / numArray.length
 }
+console.log(res)
+
+
