@@ -37,4 +37,5 @@ let arr = ["How", "Are you", "Doing"]
 
 delete arr[0];
 
+alert(arr.length);
 console.log(arr)
