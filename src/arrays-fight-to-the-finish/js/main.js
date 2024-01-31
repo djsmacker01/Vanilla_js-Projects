@@ -35,7 +35,8 @@ numArray.forEach((item, index) => {
 // How to delete element from the Array, use delete()
 let arr = ["How", "Are you", "Doing"]
 
-delete arr[0];
+// delete arr[0];
+arr.splice(0, 1);
 
 alert(arr.length);
 console.log(arr)
