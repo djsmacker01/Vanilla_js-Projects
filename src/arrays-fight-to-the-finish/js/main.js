@@ -29,3 +29,10 @@ console.log(res)
 // arr.pop() – extracts an item from the end,
 // arr.shift() – extracts an item from the beginning,
 // arr.unshift(...items) – adds items to the beginning.
+
+// Other Array Method
+// Splice
+// How to delete element from the Array, use delete()
+let arr = ["How", "Are you", "Doing"]
+
+delete arr[0];
