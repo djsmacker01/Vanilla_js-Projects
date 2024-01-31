@@ -36,3 +36,5 @@ console.log(res)
 let arr = ["How", "Are you", "Doing"]
 
 delete arr[0];
+
+console.log(arr)
