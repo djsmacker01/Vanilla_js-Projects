@@ -31,7 +31,7 @@ numArray.forEach((item, index) => {
 // arr.unshift(...items) – adds items to the beginning.
 
 // Other Array Method
-// Splice
+// Splice: removes items, insert and replace items
 // How to delete element from the Array, use delete()
 let arr = ["How", "Are you", "Doing"]
 
