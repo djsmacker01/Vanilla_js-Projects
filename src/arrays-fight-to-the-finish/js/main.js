@@ -36,7 +36,9 @@ numArray.forEach((item, index) => {
 let arr = ["I", "study", "JavaScript", "right", "now"]
 
 // delete arr[0];
-arr.splice(0, 1);
+// arr.splice(0, 1);
+
+arr.splice(0,3, "Let's", "dance ")
 
 alert(arr.length);
 console.log(arr)
