@@ -24,4 +24,8 @@ let res = sum / numArray.length
 }
 console.log(res)
 
-
+// Add/remove items
+// arr.push(...items) – adds items to the end,
+// arr.pop() – extracts an item from the end,
+// arr.shift() – extracts an item from the beginning,
+// arr.unshift(...items) – adds items to the beginning.
