@@ -1,6 +1,8 @@
 // *Variables*
 // Declare a variable, reassign it to your favorite food, and alert the value
-
+let favoriteFood
+favoriteFood = 'Plantain'
+alert(favoriteFood)
 //Declare a variable, assign it a string, alert the second character in the string (Use your google-fu and the MDN)
 
 
