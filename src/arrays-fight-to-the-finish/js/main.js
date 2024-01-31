@@ -33,7 +33,7 @@ numArray.forEach((item, index) => {
 // Other Array Method
 // Splice: removes items, insert and replace items
 // How to delete element from the Array, use delete()
-let arr = ["How", "Are you", "Doing"]
+let arr = ["I", "study", "JavaScript", "right", "now"]
 
 // delete arr[0];
 arr.splice(0, 1);
