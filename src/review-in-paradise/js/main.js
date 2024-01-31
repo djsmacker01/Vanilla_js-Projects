@@ -22,7 +22,7 @@ function cubeRoot(number) {
     let numRoot = Math.cbrt(number, 1 / 3)
     console.log(numRoot)
 }
-cubeRoot(81)
+cubeRoot(27)
 
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
