@@ -42,3 +42,8 @@ arr.splice(0,3, "Let's", "dance")
 
 alert(arr.length);
 console.log(arr)
+
+// slice Method
+// It returns a new array copying to it all items from index start to end(not including end).
+//  Both start and end can be negative, in that case position from array end is assumed.
+let array = ["a", "b", "c", "d", "e"]
