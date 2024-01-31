@@ -16,13 +16,13 @@ numArray.forEach((item, index) => {
 
 //Find the average of all the numbers from question two
 
-let sum = 0
+// let sum = 0
 
-for (let i = 0; i < numArray.length; i++){
-    sum += numArray[i]
-let res = sum / numArray.length
-}
-console.log(res)
+// for (let i = 0; i < numArray.length; i++){
+//     sum += numArray[i]
+// let res = sum / numArray.length
+// }
+// console.log(res)
 
 // Add/remove items
 // arr.push(...items) – adds items to the end,
