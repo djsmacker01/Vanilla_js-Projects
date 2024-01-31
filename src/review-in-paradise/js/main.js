@@ -12,9 +12,11 @@ alert(res)
 // *Functions*
 // Create a function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the function.
 
-function threeNumDiv() {
-    
+function threeNumDiv(n1, n2, n3) {
+    let product = (n1 / n2) * n3
+    alert(product)
 }
+threeNumDiv(30,5,6)
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
 
 
