@@ -4,7 +4,9 @@ let favoriteFood
 favoriteFood = 'Plantain'
 alert(favoriteFood)
 //Declare a variable, assign it a string, alert the second character in the string (Use your google-fu and the MDN)
-let strVal = 'toString'
+let strVal = ['toString']
+strVal.splice(0, 1)
+alert(strVal)
 
 // *Functions*
 // Create a function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the function.
