@@ -18,7 +18,9 @@ function threeNumDiv(n1, n2, n3) {
 }
 threeNumDiv(30,5,6)
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
-
+function cubeRoot(number) {
+    
+}
 
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
