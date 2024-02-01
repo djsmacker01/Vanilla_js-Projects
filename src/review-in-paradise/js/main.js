@@ -26,7 +26,15 @@ cubeRoot(9)
 
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
- 
+function checkSummer(month) {
+    let monthToLowerCase = month.toLowerCase();
+    if (monthToLowerCase === 'June' || monthToLowerCase === 'July' || monthToLowerCase === 'August') { 
+        alert('YAY')
+    }
+    else {
+        alert('Boo')
+    }
+ }
 
 //*Loops*
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
