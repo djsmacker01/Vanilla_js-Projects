@@ -19,7 +19,7 @@
 // threeNumDiv(30,5,6)
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
 function cubeRoot(number) {
-    let numRoot = Math.cbrt(number).toFixed(2);
+    let numRoot = Math.cbrt(number.toFixed(5));
     console.log(numRoot)
 }
 cubeRoot(9)
