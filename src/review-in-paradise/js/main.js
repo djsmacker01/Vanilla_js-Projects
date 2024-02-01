@@ -4,10 +4,10 @@
 // favoriteFood = 'Plantain'
 // alert(favoriteFood)
 //Declare a variable, assign it a string, alert the second character in the string (Use your google-fu and the MDN)
-// let strVal = 'toString'
-// // let res1 = strVal.splice(2, 1)
-// let res = strVal.charAt(1)
-// alert(res)
+let strVal = 'Hello, Twitch!'
+// let res1 = strVal.splice(2, 1)
+let res = strVal.charAt(1)
+alert(res)
 
 // *Functions*
 // Create a function that takes in 3 numbers. Divide the first two numbers and multiply the last. Alert the product. Call the function.
@@ -18,11 +18,11 @@
 // }
 // threeNumDiv(30,5,6)
 // Create a function that takes in 1 number. Console log the cube root of the number. Call the function.
-function cubeRoot(number) {
-    let numRoot = Math.cbrt(number, 1 / 3)
-    console.log(numRoot)
-}
-cubeRoot(27)
+// function cubeRoot(number) {
+//     let numRoot = Math.cbrt(number, 1 / 3)
+//     console.log(numRoot)
+// }
+// cubeRoot(27)
 
 // *Conditionals*
 //Create a function that takes in a month. If it is a summer month alert "YAY". If another other month, alert "Booo"
