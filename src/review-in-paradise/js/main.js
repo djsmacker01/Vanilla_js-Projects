@@ -34,7 +34,9 @@ function checkSummer(month) {
     else {
         alert('Boo')
     }
- }
+}
+ 
+checkSummer('june')
 
 //*Loops*
 //Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
