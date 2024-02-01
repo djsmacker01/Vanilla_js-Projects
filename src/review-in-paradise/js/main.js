@@ -48,3 +48,5 @@ function skip5(number) {
         }
     }
 }
+
+skip5(20)
