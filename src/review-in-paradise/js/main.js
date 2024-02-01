@@ -43,6 +43,8 @@ checkSummer('June')
 // Console log every number from 1 to that number while skipping multiples of 5.
 function skip5(number) { 
     for (let i = 1; i <= number; i++) {
-      
-     }
+        if (i % 5 !== 0) {
+            console.log(i)
+        }
+    }
 }
