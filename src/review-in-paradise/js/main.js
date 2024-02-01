@@ -39,9 +39,10 @@ function checkSummer(month) {
 checkSummer('June')
 
 //*Loops*
-//Create a function that takes in a number. Console log every number from 1 to that number while skipping multiples of 5.
+//Create a function that takes in a number.
+// Console log every number from 1 to that number while skipping multiples of 5.
 function skip5(number) { 
     for (let i = 1; i <= number; i++) {
-        
+      
      }
 }
