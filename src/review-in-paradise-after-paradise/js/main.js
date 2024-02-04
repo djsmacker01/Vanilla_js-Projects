@@ -9,7 +9,13 @@ function firstAndLast(arr) {
         alert('Hi')
     }
     else if (arr[0] > arr[arr.length - 1]) { 
-        
+        alert('Bye')
+    }
+    else if (arr[0] == arr[arr.length - 1]) {
+        alert('We close in an hour')
+    }
+    else {
+        alert('Thanks ')
     }
 }
  
