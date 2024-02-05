@@ -9,4 +9,5 @@ function arrTwoNum(arr) {
     });
 }
 arrTwoNum([10,20,10])
+arrTwoNum([30,80,10])
 
