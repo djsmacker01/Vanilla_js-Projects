@@ -3,10 +3,12 @@
 
 function arrTwoNum(arr) {
     let product = 1
+    
     // arr.forEach(element => {
     //     product *= element
     //     alert(product)
     // });
+
     for (let i = 0; i < arr.length; i++) { 
         product *= arr[i];
     }
