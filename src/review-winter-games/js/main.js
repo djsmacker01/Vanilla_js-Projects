@@ -3,12 +3,23 @@
 //array(do not use map or filter)
 
 
-function evenNumber(number) {
+// function evenNumber(number) {
+//     let eNum = []
+//     for (let i = 0; i < number.length; i++) {
+//         if (number[i] % 2 == 0) {
+//             eNum.push(number[i])
+//         }
+//     }
+//     return eNum
+// }
+
+function evenNumber(num) {
     let eNum = []
-    for (let i = 0; i < number.length; i++) {
-        if (number[i] % 2 == 0) {
-            eNum.push(number[i])
-        }
-    }
+
+    num.forEach(n => {
+        if (n % 2 === 0) {
+      eNum.push(n)
+      }
+    })
     return eNum
 }
