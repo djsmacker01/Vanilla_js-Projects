@@ -29,7 +29,20 @@ function lowestAndHighest(n1, n2, n3) {
 lowestAndHighest(100,160,893)
 
 // *Conditionals*
-//Create a function that returns heads or tails randomly and as fairly as possible. Call the function.
+//Create a function that returns heads or tails randomly and as fairly as possible.
+//  Call the function.
+function headsOrTails() {
+    let result = Math.random();
+    if (result < 0.5) {
+        return 'heads'
+        
+    }
+    else {
+        return 'tails'
+    }
+    
+}
+console.log(headsOrTails())
 
 
 //*Loops*
