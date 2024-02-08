@@ -21,7 +21,7 @@ console.log(evenNums(nums))
 
 function sumOfSecLowAndHighest(nums) { 
     let sorted = nums.sort((a, b) => a - b)
-    alert(sorted[1] + sorted[sorted.length - 1])
+    alert(sorted[1] + sorted[sorted.length - 2])
 }
 
 sumOfSecLowAndHighest ([2,4,6,9,10])
