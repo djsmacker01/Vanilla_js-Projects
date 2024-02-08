@@ -42,8 +42,18 @@ function headsOrTails() {
     }
     
 }
-console.log(headsOrTails())
+// console.log(headsOrTails())
 
 
 //*Loops*
-//Create a function that takes in a number. Console log the result of heads or tails using the previous function x times where x is the number passed into the function. Call the function.
+//Create a function that takes in a number. Console log the result of heads or tails
+// using the previous function x times where x is the number passed into the function. Call the function.
+
+function flip(n) {
+    for (let i = 0; i < n; i++) { 
+        let result = headsOrTails()
+        console.log(result)
+    }
+}
+
+flip(2)
