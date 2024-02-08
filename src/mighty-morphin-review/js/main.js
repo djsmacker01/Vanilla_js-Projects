@@ -13,11 +13,20 @@ alert(newStr)
 // *Functions*
 // Create a function that takes in 5 numbers. Subtract all five from 100. Alert the absolute value of the difference. Call the function.
 function subFiveNumbers(n1, n2, n3, n4, n5) { 
-    
+    let difference = 100 - n1 - n2 - n3 - n4 - n5;
+
+    alert(Math.abs(difference))
 }
+subFiveNumbers(40,76,80,98,22)
 
 // Create a function that takes in 3 numbers. Console log lowest and highest values. Call the function.
+function lowestAndHighest(n1, n2, n3) {
+    let min = Math.min(n1, n2, n3);
+    let max = Math.max(n1, n2, n3);
 
+    console.log(`The lowest number is:  ${min} and the highest is:  ${max}`);
+}
+lowestAndHighest(100,160,893)
 
 // *Conditionals*
 //Create a function that returns heads or tails randomly and as fairly as possible. Call the function.
