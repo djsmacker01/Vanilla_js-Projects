@@ -1,6 +1,9 @@
 // *Variables*
 // Declare a variable, reassign it to your fav holiday, make sure it is in all caps, and print the value to the console
-
+let val 
+val = 'trip to paris'
+let caps = val.toUpperCase()
+console.log(caps)
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 
 // *Functions*
