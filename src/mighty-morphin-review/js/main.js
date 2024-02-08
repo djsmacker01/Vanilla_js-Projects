@@ -6,9 +6,15 @@ let caps = val.toUpperCase()
 console.log(caps)
 //Declare a variable, assign it a string, alert the last three characters in the string (Use your google-fu and the MDN)
 
+let stringChar = 'javascript'
+let newStr = stringChar.slice(-3)
+alert(newStr)
+
 // *Functions*
 // Create a function that takes in 5 numbers. Subtract all five from 100. Alert the absolute value of the difference. Call the function.
-
+function subFiveNumbers(n1, n2, n3, n4, n5) { 
+    
+}
 
 // Create a function that takes in 3 numbers. Console log lowest and highest values. Call the function.
 
