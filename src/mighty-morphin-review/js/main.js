@@ -43,7 +43,7 @@ console.log(caps)
     
 // }
 
-const headsOrTails = ()=> Math.random < .5 ? 'heads' : 'tails';
+const headsOrTails = _ => Math.random() < .5 ? 'heads' : 'tails';
 // console.log(headsOrTails())
 
 
@@ -58,4 +58,4 @@ function flip(n) {
     }
 }
 
-flip(2)
+flip(1)
