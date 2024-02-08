@@ -9,5 +9,7 @@ camelize("-webkit-transition") == 'WebkitTransition';
 
 const camelize = (str) => {
     return str
-    .split('-') //split 'my-long-word' into array ['my','long', 'word']
-}
+        .split('-') //split 'my-long-word' into array ['my','long', 'word']
+        .map((word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1))
+        .join(' ')
+}   
