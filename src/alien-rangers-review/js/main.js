@@ -20,5 +20,8 @@ console.log(evenNums(nums))
 //Alert the sum of the second lowest and the second highest number
 
 function sumOfSecLowAndHighest(nums) { 
-    let sorted = nums.sort((a, b)=> a-b)
+    let sorted = nums.sort((a, b) => a - b)
+    alert(sorted[1] + sorted[sorted.length - 1])
 }
+
+sumOfSecLowAndHighest ([2,4,6,9,10])
