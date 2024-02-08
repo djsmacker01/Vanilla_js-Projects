@@ -15,9 +15,10 @@ let nums = [21, 22, 23, 24, 25, 26, 27, 28, 29]
 let evenNums = arr => arr.filter(n => n % 2 === 0)
 
 console.log(evenNums(nums))
+
 //Create a function that takes in an array of numbers
 //Alert the sum of the second lowest and the second highest number
 
 function sumOfSecLowAndHighest(nums) { 
-    
+    let sorted = nums.sort((a, b)=> a-b)
 }
