@@ -17,6 +17,16 @@ if (str.charAt('apple') !== -1) {
 // Create a function that returns rock, paper, or scissors as randomly as possible
 function rockPaperScissors() {
     let random = Math.random() 
+
+    if (random < .33) {
+        return 'rock'
+    }
+    else if(random < .66){
+      return 'paper'
+    }
+    else {
+        return 'scissors'
+    }
 }
 
 
