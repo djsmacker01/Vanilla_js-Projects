@@ -14,7 +14,7 @@ if (str.charAt('apple') !== -1) {
     consol.log('No')
 }
 // *Functions*
-// Create a function that returns rock, paper, or scissors as randomly as possible
+// Create a function that returns rock, paper, or scissors as randomly as possible,
 function rockPaperScissors() {
     let random = Math.random() 
 
