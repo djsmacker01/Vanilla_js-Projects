@@ -40,10 +40,15 @@ function choice(playerChoice) {
     if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock')
     || (playerChoice === 'scissors' && botChoice ===  'paper'))
      {
-        
-    } else {
-        
+        console.log('You Win!');
     }
+    else if (playerChoice === botChoice) {
+        console.log('You Tied!');
+    }
+    else {
+        console.log('You Lose!');
+    }
+
 }
 choice()
 
