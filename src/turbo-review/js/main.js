@@ -35,7 +35,7 @@ function rockPaperScissors() {
 //and determines if they won a game of rock paper scissors against a bot using 
 //the above function
 
-function choice(playerChoice) {
+function checkWin(playerChoice) {
     let botChoice = rockPaperScissors()
     if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock')
     || (playerChoice === 'scissors' && botChoice ===  'paper'))
@@ -50,14 +50,14 @@ function choice(playerChoice) {
     }
 
 }
-choice('paper')
+// checkWin('paper')
 
 //*Loops*
 //Create a function that takes an array of choices. 
 //Play the game x times where x is the number of choices in 
 //the array.Print the results of each game to the console.
 function playGameXtimes(arr) {
-arr.forEach(choice => playerChoice(choice));
+arr.forEach(choice => checkWin(choice));
 }
 
-console.log(['paper','rock', 'scissors'])
+playGameXtimes(['paper','rock', 'scissors'])
