@@ -1,6 +1,14 @@
 //Arrays
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
+let arrSum = [1, 2, 3, 4, 5]
+
+let TotalSum = arrSum.reduce((acc,sum)=> acc + sum, 0)
+// arrSum += arrSum
+alert(arrSum)
+
+// function arraySum(arr) { 
+//     let arr = []
 
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
