@@ -57,7 +57,7 @@ choice('paper')
 //Play the game x times where x is the number of choices in 
 //the array.Print the results of each game to the console.
 function playGameXtimes(arr) {
-    arr.forEach(element => {playerChoice(element)
+arr.forEach(choice => {playerChoice(choice)
         
     });
 }
