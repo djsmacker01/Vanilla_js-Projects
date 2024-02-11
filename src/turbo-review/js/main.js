@@ -61,3 +61,5 @@ arr.forEach(choice => {playerChoice(choice)
         
     });
 }
+
+console.log(['paper','rock', 'scissors'])
