@@ -31,7 +31,21 @@ function rockPaperScissors() {
 
 
 // *Conditionals*
-//Create a function that takes in a choice (rock, paper, or scissors) and determines if they won a game of rock paper scissors against a bot using the above function
+//Create a function that takes in a choice (rock, paper, or scissors) 
+//and determines if they won a game of rock paper scissors against a bot using 
+//the above function
+
+function choice(playerChoice) {
+    let botChoice = rockPaperScissors()
+    if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock')
+    || (playerChoice === 'scissors' && botChoice ===  'paper'))
+     {
+        
+    } else {
+        
+    }
+}
+choice()
 
 //*Loops*
 //Create a function that takes an array of choices. Play the game x times where x is the number of choices in the array. Print the results of each game to the console.
