@@ -5,7 +5,7 @@ let arrSum = [1, 2, 3, 4, 5]
 
 let TotalSum = arrSum.reduce((acc,sum)=> acc + sum, 0)
 // arrSum += arrSum
-alert(arrSum)
+alert(TotalSum)
 
 // function arraySum(arr) { 
 //     let arr = []
