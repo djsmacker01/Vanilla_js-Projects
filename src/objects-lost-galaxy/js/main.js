@@ -15,3 +15,4 @@ mouse.leftClick = function () {
  mouse.scroll = function () {
      console.log('scroll up and down')
  }
+ 
