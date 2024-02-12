@@ -1,8 +1,6 @@
 //Create a mouse object that has four properties and three methods
 
-const mouse = {
-    
-}
+const mouse = {}
     mouse.brand = 'Dell'
     mouse.color = 'black'
     mouse.model =  'Mx Ergo'
