@@ -1,7 +1,7 @@
 //Create a street fighter constructor that makes fighting game 
 //characters with 4 properties and 3 methods
 
-function streetFighter(punch,kick, catchPhrase, specialMove) {
+function StreetFighter(punch,kick, catchPhrase, specialMove) {
     this.punch = punch
     this.kick = kick
     this.specialMove = specialMove
@@ -18,5 +18,7 @@ function streetFighter(punch,kick, catchPhrase, specialMove) {
         console.log(`WHOPS, missed me!}`)
     }
 }
+
+let newStreetFight = new StreetFighter('Hard','high','Get over me',' common!')
 
     
