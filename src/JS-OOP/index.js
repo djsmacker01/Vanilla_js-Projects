@@ -12,4 +12,16 @@
 
 // circle.draw()
 
-// Factory or contructor function 
+// Factory or contructor function
+
+function createCircle(radius) {
+    return {
+        radius,
+        draw: function () { 
+            console.log("createCircle");
+        }
+    }
+        
+}
+const circle = createCircle(1);
+circle.draw()
