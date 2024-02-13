@@ -4,5 +4,15 @@ function StopWatch() {
     this.start = function () {
         
     }
-    
+
+    this.stop = function () {
+        
+    }
+    this.pause = function () { 
+
+    }
+    this.reset = function () { 
+        
+    }
+
 }
