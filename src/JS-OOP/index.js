@@ -44,7 +44,14 @@ anotherCircle.location = {
     x: 1,
     y:2
 }
-
+// Enumerating properties, i.e looping through an object
+for (let key in anotherCircle) {
+    // to get only the properties
+    if (typeof anotherCircle[key] !== 'function') {
+        
+        console.log(key, anotherCircle[key])
+    }
+}
 // console.log(anotherCircle.radius)
 //   let number = 10
 // function increaseNum(number) {
