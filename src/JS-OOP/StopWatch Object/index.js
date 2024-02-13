@@ -6,6 +6,8 @@ function StopWatch() {
             throw new Error('StopWatch is already running')
         running = true
         startTime = new Date()
+  
+    console.log('Starting....')
     }
 
     this.stop = function () {
