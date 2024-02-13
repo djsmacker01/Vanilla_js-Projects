@@ -39,10 +39,20 @@
 // const anotherCircle1 = new Circle(2)
 
 // console.log(anotherCircle.radius)
-  let number = 10
-function increaseNum(number) {
+//   let number = 10
+// function increaseNum(number) {
    
-    number++
+//     number++
+// }
+
+// increaseNum(number)
+// console.log(number)
+
+  let obj = {value:10}
+function increaseNum(obj) {
+   
+    obj.value++
 }
-increaseNum(number)
-console.log(number)
+increaseNum(obj)
+console.log(obj)
+
