@@ -28,15 +28,22 @@
 
 // constructors Function
 
-// function Circle(radius) {
-//     console.log('this',this)
-//     this.radius = radius
-//     this.draw = function () {
-//         console.log("createCircle")
-//     }
-// }
-// const anotherCircle = new Circle(1)
-// const anotherCircle1 = new Circle(2)
+function Circle(radius) {
+    // console.log('this',this)
+    this.radius = radius
+    this.draw = function () {
+        console.log("createCircle")
+    }
+}
+const anotherCircle = new Circle(1)
+const anotherCircle1 = new Circle(2)
+
+
+//  Add or removing property
+anotherCircle.location = {
+    x: 1,
+    y:2
+}
 
 // console.log(anotherCircle.radius)
 //   let number = 10
@@ -48,11 +55,13 @@
 // increaseNum(number)
 // console.log(number)
 
-  let obj = {value:10}
-function increaseNum(obj) {
+//   let obj = {value:10}
+// function increaseNum(obj) {
    
-    obj.value++
-}
-increaseNum(obj)
-console.log(obj)
+//     obj.value++
+// }
+// increaseNum(obj)
+// console.log(obj)
+
+//  Add or removing property
 
