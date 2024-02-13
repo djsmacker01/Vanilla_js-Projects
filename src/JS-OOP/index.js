@@ -31,8 +31,14 @@
 function Circle(radius) {
     // console.log('this',this)
     this.radius = radius
+    let defaultLocation = { x: 0, y: 0, z: 0 }
+    let computeLocation = function (factor) {
+        //
+    }
     this.draw = function () {
+        computeLocation(0.1)
         console.log("createCircle")
+
     }
 }
 const anotherCircle = new Circle(1)
@@ -69,6 +75,7 @@ else {
     console.log('Location not found')
 }
 
+// Abstraction
 
 
 
