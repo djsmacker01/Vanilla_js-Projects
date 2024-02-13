@@ -52,6 +52,11 @@ for (let key in anotherCircle) {
         console.log(key, anotherCircle[key])
     }
 }
+console.log('...........................')
+// To get all keys in object. This approach is used to separate properties from method
+const keys = Object.keys(anotherCircle1)
+console.log(keys)
+
 // console.log(anotherCircle.radius)
 //   let number = 10
 // function increaseNum(number) {
