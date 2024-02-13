@@ -12,16 +12,30 @@
 
 // circle.draw()
 
-// Factory or contructor function
+// Factory function
 
-function createCircle(radius) {
-    return {
-        radius,
-        draw: function () { 
-            console.log("createCircle");
-        }
-    }
+// function createCircle(radius) {
+//     return {
+//         radius,
+//         draw: function () { 
+//             console.log("createCircle");
+//         }
+//     }
         
+// }
+// const circle = createCircle(1);
+// circle.draw()
+
+// constructors Function
+
+function Circle(radius) {
+    console.log('this',this)
+    this.radius = radius
+    this.draw = function () {
+        console.log("createCircle")
+    }
 }
-const circle = createCircle(1);
-circle.draw()
+const anotherCircle = new Circle(1)
+const anotherCircle1 = new Circle(2)
+
+console.log(anotherCircle.radius)
