@@ -17,7 +17,7 @@
 // function createCircle(radius) {
 //     return {
 //         radius,
-//         draw: function () { 
+//         draw: function () {
 //             console.log("createCircle");
 //         }
 //     }
@@ -28,14 +28,21 @@
 
 // constructors Function
 
-function Circle(radius) {
-    console.log('this',this)
-    this.radius = radius
-    this.draw = function () {
-        console.log("createCircle")
-    }
-}
-const anotherCircle = new Circle(1)
-const anotherCircle1 = new Circle(2)
+// function Circle(radius) {
+//     console.log('this',this)
+//     this.radius = radius
+//     this.draw = function () {
+//         console.log("createCircle")
+//     }
+// }
+// const anotherCircle = new Circle(1)
+// const anotherCircle1 = new Circle(2)
 
-console.log(anotherCircle.radius)
+// console.log(anotherCircle.radius)
+  let number = 10
+function increaseNum(number) {
+   
+    number++
+}
+increaseNum(number)
+console.log(number)
