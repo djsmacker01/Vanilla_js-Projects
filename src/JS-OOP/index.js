@@ -56,6 +56,21 @@ console.log('...........................')
 // To get all keys in object. This approach is used to separate properties from method
 const keys = Object.keys(anotherCircle1)
 console.log(keys)
+// How to know if an object has a given property
+// IN operator is used
+
+// if ('location' in anotherCircle)
+//     console.log('Another circle has a location')
+
+if (typeof anotherCircle1 === 'object' && 'location' in anotherCircle1) {
+    console.log('Another new circle has a location');
+}
+else {
+    console.log('Location not found')
+}
+
+
+
 
 // console.log(anotherCircle.radius)
 //   let number = 10
