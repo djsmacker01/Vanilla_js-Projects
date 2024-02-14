@@ -29,20 +29,35 @@
 // }
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible,
-function rockPaperScissors() {
-    let random = Math.random() 
+// function rockPaperScissors() {
+//     let random = Math.random() 
+
+//     if (random < .33) {
+//         return 'rock'
+//     }
+//     else if(random < .66){
+//       return 'paper'
+//     }
+//     else {
+//         return 'scissors'
+//     }
+// }
+
+
+function rockPaperGame() {
+    let random = Math.random();
 
     if (random < .33) {
-        return 'rock'
+        console.log('rock')
     }
-    else if(random < .66){
-      return 'paper'
+    else if (random < .66) {
+        console.log('Paper')
     }
     else {
-        return 'scissors'
+        console.log('Scissors')
     }
 }
-
+rockPaperGame()
 
 
 
