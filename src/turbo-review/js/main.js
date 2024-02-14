@@ -6,18 +6,26 @@
 // favoriteDrink = favoriteDrink.trim()
 // console.log(favoriteDrink)
 
-let favoriteDrink;
-favoriteDrink = ' Lucozade sport drink'
-favoriteDrink = favoriteDrink.trim()
-console.log('My favorite drink is',favoriteDrink)
+// let favoriteDrink;
+// favoriteDrink = ' Lucozade sport drink'
+// favoriteDrink = favoriteDrink.trim()
+// console.log('My favorite drink is',favoriteDrink)
 
 
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
-let str = 'mate egg printer apple jez'
-if (str.charAt('apple') !== -1) {
+// let str = 'mate egg printer apple jez'
+// if (str.charAt('apple') !== -1) {
+//     console.log('Yes')
+// } else {
+//     consol.log('No')
+// }
+
+let str = 'aunt, goog-apple, mat, house'
+if (str.charAt('aunt')!==-1) {
     console.log('Yes')
-} else {
-    consol.log('No')
+}
+else {
+    console.log('No')
 }
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible,
