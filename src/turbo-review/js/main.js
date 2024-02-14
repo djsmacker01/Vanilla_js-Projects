@@ -13,12 +13,12 @@
 
 
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
-// let str = 'mate egg printer apple jez'
-// if (str.charAt('apple') !== -1) {
-//     console.log('Yes')
-// } else {
-//     consol.log('No')
-// }
+let str = 'mate egg printer apple jez'
+if (str.charAt('apple') !== -1) {
+    console.log('Yes')
+} else {
+    consol.log('No')
+}
 
 // let str = 'aunt, goog-apple, mat, house'
 // if (str.charAt('aunt')!==-1) {
@@ -29,35 +29,35 @@
 // }
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible,
-// function rockPaperScissors() {
-//     let random = Math.random() 
-
-//     if (random < .33) {
-//         return 'rock'
-//     }
-//     else if(random < .66){
-//       return 'paper'
-//     }
-//     else {
-//         return 'scissors'
-//     }
-// }
-
-
-function rockPaperGame() {
-    let random = Math.random();
+function rockPaperScissors() {
+    let random = Math.random() 
 
     if (random < .33) {
-        console.log('rock')
+        return 'rock'
     }
-    else if (random < .66) {
-        console.log('Paper')
+    else if(random < .66){
+      return 'paper'
     }
     else {
-        console.log('Scissors')
+        return 'scissors'
     }
 }
-rockPaperGame()
+
+
+// function rockPaperGame() {
+//     let random = Math.random();
+
+//     if (random < .33) {
+//         console.log('rock')
+//     }
+//     else if (random < .66) {
+//         console.log('Paper')
+//     }
+//     else {
+//         console.log('Scissors')
+//     }
+// }
+// rockPaperGame()
 
 
 
@@ -66,21 +66,38 @@ rockPaperGame()
 //and determines if they won a game of rock paper scissors against a bot using 
 //the above function
 
+// function checkWin(playerChoice) {
+//     let botChoice = rockPaperScissors()
+//     if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock')
+//     || (playerChoice === 'scissors' && botChoice ===  'paper'))
+//      {
+//         console.log('You Win!');
+//     }
+//     else if (playerChoice === botChoice) {
+//         console.log('You Tied!');
+//     }
+//     else {
+//         console.log('You Lose!');
+//     }
+
+// }
+
 function checkWin(playerChoice) {
     let botChoice = rockPaperScissors()
-    if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'paper' && botChoice === 'rock')
-    || (playerChoice === 'scissors' && botChoice ===  'paper'))
-     {
-        console.log('You Win!');
+
+    if ((playerChoice === 'rock' && botChoice === 'scissors') || (playerChoice === 'scissors' && botChoice === 'paper') || (playerChoice === 'paper' && botChoice === 'rock') ) {
+        console.log('You Win!!!')
     }
     else if (playerChoice === botChoice) {
-        console.log('You Tied!');
+        console.log('You Tied')
     }
     else {
-        console.log('You Lose!');
+        console.log('You Lose!!')
     }
-
 }
+
+
+
 // checkWin('paper')
 
 //*Loops*
