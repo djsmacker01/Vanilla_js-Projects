@@ -2,9 +2,15 @@
 // Declare a variable and assign it to your fav drink as a string. 
 //Make sure there is no whitespace on either side of the string, and print the value to the console
 
-let favoriteDrink = ' Soya Milk '
+// let favoriteDrink = ' Soya Milk '
+// favoriteDrink = favoriteDrink.trim()
+// console.log(favoriteDrink)
+
+let favoriteDrink;
+favoriteDrink = ' Lucozade sport drink'
 favoriteDrink = favoriteDrink.trim()
-console.log(favoriteDrink)
+console.log('My favorite drink is',favoriteDrink)
+
 
 //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
 let str = 'mate egg printer apple jez'
