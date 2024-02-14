@@ -1,11 +1,14 @@
 //Arrays
 
 //Create and array of numbers. Sum all of the numbers. Alert the sum.
-let arrSum = [1, 2, 3, 4, 5]
+// let arrSum = [1, 2, 3, 4, 5]
 
-let TotalSum = arrSum.reduce((acc,sum)=> acc + sum, 0)
-// arrSum += arrSum
-alert(TotalSum)
+// let TotalSum = arrSum.reduce((acc,sum)=> acc + sum, 0)
+// // arrSum += arrSum
+// alert(TotalSum)
+let arrSum = [1, 2, 3, 4, 5]
+let result = arrSum.reduce((acc, num) => acc + num, 0)
+console.log(result)
 
 // function arraySum(arr) { 
 //     let arr = []
