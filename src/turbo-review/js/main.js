@@ -20,13 +20,13 @@
 //     consol.log('No')
 // }
 
-let str = 'aunt, goog-apple, mat, house'
-if (str.charAt('aunt')!==-1) {
-    console.log('Yes')
-}
-else {
-    console.log('No')
-}
+// let str = 'aunt, goog-apple, mat, house'
+// if (str.charAt('aunt')!==-1) {
+//     console.log('Yes')
+// }
+// else {
+//     console.log('No')
+// }
 // *Functions*
 // Create a function that returns rock, paper, or scissors as randomly as possible,
 function rockPaperScissors() {
@@ -42,6 +42,8 @@ function rockPaperScissors() {
         return 'scissors'
     }
 }
+
+
 
 
 // *Conditionals*
