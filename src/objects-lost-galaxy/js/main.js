@@ -53,4 +53,24 @@ function MakeCarFactory(carMake, carModel, carColor, numberOfDoor) {
 let hondaCivic = new MakeCarFactory('Honda', 'Civic', 'Silver', 4)
 let toyota = new MakeCarFactory('Toyota', 'Camery','grey',2)
 
+let ingredients = ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic']
+function PizzaConstructor(sauce,size, crust,ingredients) {
+    this.sauce =sauce
+    this.size = size
+    this.crust = crust
+    this.ingredients = ingredients
+this.estimatedDeliveryTime = function (time) {
+    console.log('estimated delivery time')
+}
+
+this.burnMouth = function () {
+    console.log('Yeah, it burns out my tongue')
+}
+    
+this.frisbee = function () { 
+    console.log('Yeah, it')
+}
+
+
+}
     
