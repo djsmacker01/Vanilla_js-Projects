@@ -50,6 +50,7 @@ function MakeCarFactory(carMake, carModel, carColor, numberOfDoor) {
         console.log(`locked ${this.door} doors`)
     }
 }
-let hondaCivic = new MakeCarFactory('Honda','Civic','Silver',4)
+let hondaCivic = new MakeCarFactory('Honda', 'Civic', 'Silver', 4)
+let toyota = new MakeCarFactory('Toyota', 'Camery','grey',2)
 
     
