@@ -16,3 +16,10 @@ mouse.leftClick = function () {
      console.log('scroll up and down')
  }
  
+
+const pizza = {}
+    pizza.ingredients = ['apple', 'orange', 'meat', 'fish']
+    pizza.maker = 'Papa John'
+    
+
+    
