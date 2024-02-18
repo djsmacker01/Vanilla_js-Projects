@@ -18,8 +18,11 @@ mouse.leftClick = function () {
  
 
 const pizza = {}
-    pizza.ingredients = ['apple', 'orange', 'meat', 'fish']
-    pizza.maker = 'Papa John'
+pizza.ingredients = ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic']
+pizza.sauce = 'heavy'
+pizza.size = 'large'
+pizza.crust = 'stuffed'
+    
     
 
     
