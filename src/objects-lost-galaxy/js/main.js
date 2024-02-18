@@ -32,6 +32,8 @@ pizza.burnMouth = function () {
     console.log('Yeah, it burns out my tongue')
 }
     
-    
+pizza.frisbee = function () { 
+    console.log('Yeah, it')
+}
 
     
