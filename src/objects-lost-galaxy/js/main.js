@@ -36,6 +36,21 @@ pizza.frisbee = function () {
     console.log('Yeah, it')
 }
 
+// Create a car factory
 
+function MakeCarFactory(carMake, carModel, carColor, numberOfDoor) {
+    this.make = carMake
+    this.model = carModel
+    this.color = carColor
+    this.door = numberOfDoor
+    this.honk = function () {
+        console.log('BEEP! BEEP!! ')
+    }
+    this.lock = function () { 
+        console.log(`locked ${this.door} doors`)
+    }
+}
+let hondaCivic = new MakeCarFactory('Honda', 'Civic', 'Silver', 4)
+let toyota = new MakeCarFactory('Toyota', 'Camery','grey',2)
 
     
