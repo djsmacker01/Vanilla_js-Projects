@@ -22,7 +22,20 @@ pizza.ingredients = ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'
 pizza.sauce = 'heavy'
 pizza.size = 'large'
 pizza.crust = 'stuffed'
+
+
+pizza.estimatedDeliveryTime = function (time) {
+    console.log('estimated delivery time')
+}
+
+pizza.burnMouth = function () {
+    console.log('Yeah, it burns out my tongue')
+}
     
-    
+pizza.frisbee = function () { 
+    console.log('Yeah, it')
+}
+
+
 
     
