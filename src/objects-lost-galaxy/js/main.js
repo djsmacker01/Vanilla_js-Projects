@@ -75,4 +75,28 @@ function PizzaConstructor(sauce,size, crust,ingredients) {
 
 }
 
-let newPizza = new PizzaConstructor('heavy','large', 'deep dish',['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'])
+let newPizza = new PizzaConstructor('heavy', 'large', 'deep dish', ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'])
+
+class PizzaCons{
+    constructor(sauce, size, crust, ingredients) {
+        this.sauce = sauce
+        this.size = size
+        this.crust = crust
+        this.ingredients = ingredients
+    }     
+    estimatedDeliveryTime () {
+        console.log('estimated delivery time')
+    }
+
+    burnMouth () {
+        console.log('Yeah, it burns out my tongue')
+    }
+        
+    frisbee  () { 
+        console.log('Yeah, it')
+    }
+
+
+}
+
+let newPizza1 = new PizzaConstructor('heavy', 'large', 'deep dish', ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'])
