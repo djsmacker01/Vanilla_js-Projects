@@ -2,7 +2,7 @@
 //photo, and instructions and place them in the DOM
 
 document.querySelector('button').addEventListener('click', getDrink)
-
+let err =  document.querySelector('p').innerText = 'No drinks found for the given search term'
 function getDrink() {
     let drink = document.querySelector('input').value
     
@@ -16,10 +16,12 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${encodedDrink}`
             console.log(data.drinks[0]);
         document.querySelector('h2').innerHTML = data.drinks[0].strDrink
         document.querySelector('h3').innerHTML = data.drinks[0].strInstructions
-        document.querySelector('img').src = data.drinks[0].strDrinkThumb
+            document.querySelector('img').src = data.drinks[0].strDrinkThumb
+            err.clear()
         }
+
         else {
-            document.querySelector('p').innerText = 'No drinks found for the given search term'
+           err
         }
         
     })
