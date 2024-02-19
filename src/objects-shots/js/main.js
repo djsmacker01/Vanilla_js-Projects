@@ -5,16 +5,23 @@ document.querySelector('button').addEventListener('click', getDrink)
 
 function getDrink() {
     let drink = document.querySelector('input').value
-    drink = drink.replace(/\+s/g,' ').trim()
+    
+    drink = drink.replace(/\s+/g, ' ').trim();
      //Encode the search term to handle spaces and special characters
     const encodedDrink = decodeURIComponent(drink)
 fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${encodedDrink}`)
     .then(res => res.json())
     .then(data => {
-        console.log(data.drinks[0]);
+        if (data.drinks && data.drinks.length > 0) {
+            console.log(data.drinks[0]);
         document.querySelector('h2').innerHTML = data.drinks[0].strDrink
         document.querySelector('h3').innerHTML = data.drinks[0].strInstructions
         document.querySelector('img').src = data.drinks[0].strDrinkThumb
+        }
+        else {
+            document.querySelector('p').innerText = 'No drinks found for the given search term'
+        }
+        
     })
     .catch(err => {
         console.log(`Error: ${err}`);
