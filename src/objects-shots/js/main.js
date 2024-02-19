@@ -14,7 +14,7 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${encodedDrink}`
     .then(res => res.json())
     .then(data => {
         if (data.drinks && data.drinks.length > 0) {
-        console.log(data.drinks[0]);
+        console.log(data.drinks);
         document.querySelector('h2').innerHTML = data.drinks[0].strDrink
         document.querySelector('h3').innerHTML = data.drinks[0].strInstructions
         document.querySelector('img').src = data.drinks[0].strDrinkThumb
