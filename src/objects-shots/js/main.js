@@ -5,7 +5,10 @@ document.querySelector('button').addEventListener('click', getDrink)
 
 function getDrink() {
     let drink = document.querySelector('input').value
-fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${drink}`)
+
+     //Encode the search term to handle spaces and special characters
+    const encodedDrink = decodeURIComponent(drink)
+fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${encodedDrink}`)
     .then(res => res.json())
     .then(data => {
         console.log(data.drinks[0]);
