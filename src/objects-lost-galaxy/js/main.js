@@ -53,4 +53,50 @@ function MakeCarFactory(carMake, carModel, carColor, numberOfDoor) {
 let hondaCivic = new MakeCarFactory('Honda', 'Civic', 'Silver', 4)
 let toyota = new MakeCarFactory('Toyota', 'Camery','grey',2)
 
-    
+// let ingredients = ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic']
+
+function PizzaConstructor(sauce,size, crust,ingredients) {
+    this.sauce =sauce
+    this.size = size
+    this.crust = crust
+    this.ingredients = ingredients
+    this.estimatedDeliveryTime = function (time) {
+        console.log('estimated delivery time')
+    }
+
+    this.burnMouth = function () {
+        console.log('Yeah, it burns out my tongue')
+    }
+        
+    this.frisbee = function () { 
+        console.log('Yeah, it')
+    }
+
+
+}
+
+let newPizza = new PizzaConstructor('heavy', 'large', 'deep dish', ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'])
+
+class PizzaCons{
+    constructor(sauce, size, crust, ingredients) {
+        this.sauce = sauce
+        this.size = size
+        this.crust = crust
+        this.ingredients = ingredients
+    }     
+    estimatedDeliveryTime () {
+        console.log('estimated delivery time')
+    }
+
+    burnMouth () {
+        console.log('Yeah, it burns out my tongue')
+    }
+        
+    frisbee  () { 
+        console.log('Yeah, it')
+    }
+
+
+}
+
+let newPizza1 = new PizzaConstructor('heavy', 'large', 'deep dish', ['spinach', 'onion', 'jelapenos', 'banana peppers', 'garlic'])
