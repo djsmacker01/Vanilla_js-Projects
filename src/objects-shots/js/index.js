@@ -11,3 +11,9 @@ document.querySelector('input').addEventListener('keypress', function (event) {
 
 let listOfDrinks, intervalID;
 let index = 0;
+
+function getDrinks() {
+    let search = document.querySelector('input').value
+
+    fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${search}`)
+}
