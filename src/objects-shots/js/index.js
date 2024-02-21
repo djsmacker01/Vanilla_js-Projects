@@ -8,3 +8,6 @@ document.querySelector('input').addEventListener('keypress', function (event) {
         document.querySelector('button').click();
     }
 })
+
+let listOfDrinks, intervalID;
+let index = 0;
