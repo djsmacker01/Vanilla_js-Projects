@@ -18,7 +18,7 @@ fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${encodedDrink}`
         document.querySelector('h2').innerHTML = data.drinks[0].strDrink
         document.querySelector('h3').innerHTML = data.drinks[0].strInstructions
         document.querySelector('img').src = data.drinks[0].strDrinkThumb
-            document.querySelector('p').style.display = 'none'
+          const para =  document.querySelector('p').style.display = 'none'
             console.log('')
             
             
