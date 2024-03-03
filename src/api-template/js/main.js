@@ -2,9 +2,10 @@
 document.querySelector('button').addEventListener('click', getFetch)
 
 function getFetch(){
-  const choice = document.querySelector('input').value.toLowerCase()
+  const choice = document.querySelector('input').value
+  console.log(choice)
   // const url = `https://pokeapi.co/api/v2/pokemon/${choice}`
-  const url = `https://api.nasa.gov/planetary/apod?api_key=YoDv9wrd153GHLaxj5ixUkZlqcjqTLasfUawmTxO`
+  const url = `https://api.nasa.gov/planetary/apod?api_key=YRqpm1WshA9gMDjk5O8yb8FbdKf5cXp0BI8hFWzxu`
 
 
   fetch(url)
@@ -12,7 +13,7 @@ function getFetch(){
       .then(data => {
         console.log(data)
         document.querySelector('h3').innerText = data.explanation
-        let test = document.querySelector('video')
+        let test = document.querySelector('img')
         test.src = data.url
         console.log('Testing image', test)
       })
