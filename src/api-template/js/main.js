@@ -11,6 +11,9 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
       .then(data => {
         console.log(data)
+        let test = document.querySelector('img')
+        test.src = data.url
+        console.log('Testing image', test)
       })
       .catch(err => {
           console.log(`error ${err}`)
