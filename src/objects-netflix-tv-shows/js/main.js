@@ -10,11 +10,15 @@ class MakeNetflixTvShows{
     }
 
     play() {
-        
+        console.log('Play')
     }
 
     stop() {
-        
+        console.log('Stop')
+    }
+
+    saveTolist() { 
+        console.log('Save Tolist')
     }
 
 
