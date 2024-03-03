@@ -9,5 +9,13 @@ class MakeNetflixTvShows{
         this.numOfEpisodes = numOfEpisodes;
     }
 
+    play() {
+        
+    }
+
+    stop() {
+        
+    }
+
 
 }
