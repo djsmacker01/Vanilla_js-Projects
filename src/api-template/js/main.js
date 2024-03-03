@@ -12,7 +12,7 @@ function getFetch(){
       .then(data => {
         console.log(data)
         document.querySelector('h3').innerText = data.explanation
-        let test = document.querySelector('img')
+        let test = document.querySelector('video')
         test.src = data.url
         console.log('Testing image', test)
       })
