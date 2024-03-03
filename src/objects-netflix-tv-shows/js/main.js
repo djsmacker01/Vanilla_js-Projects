@@ -23,3 +23,6 @@ class MakeNetflixTvShows{
 
 
 }
+
+
+let blackList = new MakeNetflixTvShows('blackList','Drama',7.6, 10)
