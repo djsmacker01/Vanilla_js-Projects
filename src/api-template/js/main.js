@@ -5,7 +5,7 @@ function getFetch(){
   const choice = document.querySelector('input').value
   console.log(choice)
   // const url = `https://pokeapi.co/api/v2/pokemon/${choice}`
-  const url = `https://api.nasa.gov/planetary/apod?api_key=21DG9YugnkoCOwBp8nG4CbrHggWWaJVX1Ezmzhaw`
+  const url = `https://api.nasa.gov/planetary/apod?api_key=21DG9YugnkoCOwBp8nG4CbrHggWWaJVX1Ezmzhaw&date=${choice}`
 
 
   fetch(url)
