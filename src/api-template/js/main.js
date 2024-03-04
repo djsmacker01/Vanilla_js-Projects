@@ -10,12 +10,18 @@ function getFetch(){
 
   fetch(url)
       .then(res => res.json()) // parse response as JSON
-      .then(data => {
-        console.log(data)
-        document.querySelector('h3').innerText = data.explanation
-        let test = document.querySelector('img')
+    .then(data => {
+      if (data.media_type === 'image') {
+           let test = document.querySelector('img')
         test.src = data.url
         console.log('Testing image', test)
+      }
+      else {
+        document.querySelector('iframe').src = data.url
+      }
+        console.log(data)
+        document.querySelector('h3').innerText = data.explanation
+       
       })
       .catch(err => {
           console.log(`error ${err}`)
