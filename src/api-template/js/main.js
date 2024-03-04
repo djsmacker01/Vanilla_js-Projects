@@ -12,12 +12,15 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
     .then(data => {
       if (data.media_type === 'image') {
-           let test = document.querySelector('img')
-        test.src = data.hdurl
-        console.log('Testing image', test)
+        document.querySelector('img').src = data.hdurl
+        document.querySelector('img').style.display = 'block'
+        document.querySelector('iframe').style.display = 'none'
+        // console.log('Testing image', test)
       }
       else if(data.media_type === 'video') {
         document.querySelector('iframe').src = data.url
+        document.querySelector('iframe').style.display = 'block'
+        document.querySelector('img').style.display = 'none'
       }
         console.log(data)
         document.querySelector('h3').innerText = data.explanation
