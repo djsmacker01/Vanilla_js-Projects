@@ -13,10 +13,10 @@ function getFetch(){
     .then(data => {
       if (data.media_type === 'image') {
            let test = document.querySelector('img')
-        test.src = data.url
+        test.src = data.hdurl
         console.log('Testing image', test)
       }
-      else if(data.media_type === ' video') {
+      else if(data.media_type === 'video') {
         document.querySelector('iframe').src = data.url
       }
         console.log(data)
