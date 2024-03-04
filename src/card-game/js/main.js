@@ -19,6 +19,10 @@ function drawTwo(){
       console.log(data)
       document.querySelector('#player1').src = data.cards[0].image
       document.querySelector('#player2').src = data.cards[1].image
+
+      let player1Val = Number(data.cards[0].value)
+      let player2Val = Number(data.cards[0].value)
+
        
       })
       .catch(err => {
