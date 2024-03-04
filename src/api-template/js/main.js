@@ -16,7 +16,7 @@ function getFetch(){
         test.src = data.url
         console.log('Testing image', test)
       }
-      else {
+      else if(data.media_type === ' video') {
         document.querySelector('iframe').src = data.url
       }
         console.log(data)
