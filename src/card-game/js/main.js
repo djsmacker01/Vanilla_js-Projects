@@ -23,6 +23,18 @@ function drawTwo(){
       let player1Val = Number(data.cards[0].value)
       let player2Val = Number(data.cards[0].value)
 
+      if (player1Val > player2Val) {
+        document.querySelector('h3').innerHTML = 'Player 1 Wins '
+      }
+      else if (player1Val < player2Val) { 
+        document.querySelector('h3').innerHTML = 'Player 2 Wins '
+
+      }
+      else {
+        document.querySelector('h3').innerHTML = 'A tie! Get Ready for War!'
+        
+      }
+
        
       })
       .catch(err => {
