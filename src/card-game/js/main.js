@@ -57,6 +57,6 @@ function convertToNum(val){
     return 11
   }
   else {
-    return val
+    return Number(val)
   }
 }
