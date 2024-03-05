@@ -44,3 +44,6 @@ function drawTwo(){
  
 }
 
+function convertToNum(val){
+ 
+}
