@@ -21,7 +21,7 @@ function drawTwo(){
       document.querySelector('#player2').src = data.cards[1].image
 
       let player1Val = convertToNum(data.cards[0].value)
-      let player2Val = convertToNum(data.cards[0].value)
+      let player2Val = convertToNum(data.cards[1].value)
 
       if (player1Val > player2Val) {
         document.querySelector('h3').innerHTML = 'Player 1 Wins '
