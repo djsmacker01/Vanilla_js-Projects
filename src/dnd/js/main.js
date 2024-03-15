@@ -17,7 +17,7 @@ function getFetch(){
               //add text to li
               li.textContent = obj.name
               //append the li to the ul
-              document.querySelector('ul').appendChild(li)
+              document.querySelector('ul').appendChild(li)           
           })
     //       console.log(data.subclasses[0].name);
     //    console.log(data.subclasses[1].name);
