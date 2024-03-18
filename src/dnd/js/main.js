@@ -21,7 +21,7 @@ function getFetch(){
           })
     //       console.log(data.subclasses[0].name);
     //    console.log(data.subclasses[1].name);
-          
+           
       })
       .catch(err => {
           console.log(`error ${err}`)
