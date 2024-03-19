@@ -1,6 +1,6 @@
 //Example fetch using pokemonapi.co
 document.querySelector('button').addEventListener('click', getFetch)
-// document.querySelector('h2').innerText = localStorage.getItem('title')
+document.querySelector('h2').innerText = localStorage.getItem('title')
 
 function getFetch(){
   const choice = document.querySelector('input').value
