@@ -11,7 +11,11 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
      .then(data => {
-        console.log(data.title)
+       console.log(data.title)
+       
+       // Put title into local storage
+
+       localStorage.setItem('title', data.title)
        document.querySelector('h2').innerText = data.title
       })
       .catch(err => {
