@@ -13,10 +13,16 @@ function getFetch(){
       .then(res => res.json()) // parse response as JSON
      .then(data => {
        console.log(data.title)
+       if (!localStorage.getItem('title')) {
+         localStorage.setItem('title',data.title)
+       }
+       else {
+          let books = localStorage.getItem('title') + ', ' + data.title
+          localStorage.setItem('title', books);
+       }
        
        // Put title into local storage
-       let books = localStorage.getItem('title') + ', ' + data.title
-       localStorage.setItem('title', books);
+      
        document.querySelector('h2').innerText = localStorage.getItem('title')
       })
       .catch(err => {
