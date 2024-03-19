@@ -15,7 +15,8 @@ function getFetch(){
        console.log(data.title)
        
        // Put title into local storage
-       localStorage.setItem('title', data.title)
+       let books = localStorage.getItem('title') + '; ' + data.title
+       localStorage.setItem('title', books);
        document.querySelector('h2').innerText = localStorage.getItem('title')
       })
       .catch(err => {
