@@ -21,7 +21,7 @@ function getFetch(){
           localStorage.setItem('title', books);
        }
        
-       // Put title into local storage
+       //Put title into local storage
       
        document.querySelector('h2').innerText = localStorage.getItem('title')
       })
