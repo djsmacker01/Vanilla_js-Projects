@@ -22,7 +22,6 @@ function getFetch(){
        }
        
        //Put title into local storage
-      
        document.querySelector('h2').innerText = localStorage.getItem('title')
       })
       .catch(err => {
