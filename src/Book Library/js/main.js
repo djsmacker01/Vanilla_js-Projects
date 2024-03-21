@@ -26,7 +26,7 @@ function getFetch(){
       })
       .catch(err => {
         console.log(`error ${err}`)
-        console.log('error')
+        // console.log('error')
         
       });
 }
