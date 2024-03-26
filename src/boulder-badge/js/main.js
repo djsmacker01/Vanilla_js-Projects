@@ -32,6 +32,12 @@ function convertFahrenheitToCelsius(temperature) {
 
 function charmanderBattle(currentTemperature) {
     let convert = convertFahrenheitToCelsius(currentTemperature)
+
+    if (convert > 0) {
+        console.log('Charmander can Battle!')
+    } else {
+        console.log('Charmander cannot Battle!')
+    }
 }
 
 
