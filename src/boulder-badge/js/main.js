@@ -49,6 +49,9 @@ charmanderBattle(33)
 //the trainer you are battling has in their party
 
 function undegroundPokemonLeagues(pokemonSize) { 
-    
+    for (let i = 1; i <= pokemonSize; i++) { 
+        console.log("Pikachu I choose you",pokemonSize)
+    }
 
 }
+undegroundPokemonLeagues(6)
