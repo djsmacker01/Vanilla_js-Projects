@@ -17,9 +17,13 @@ console.log('Total Candies',totalCandies)
 
 
 //Conditionals And Functions
-//You have a charmander in your party. Charmander can only battle if the temperature is above 0 degrees celcius.
-// Create one function that converts a Fahrenheit value to Celcius and another fuction that tells you wheither or
+//You have a charmander in your party. Charmander can only battle if
+//the temperature is above 0 degrees celcius.
+// Create one function that converts a Fahrenheit value to Celcius and 
+//another fuction that tells you wheither or
 // not charmander can battle
+
+
 
 //Loops
 //You have joined an undeground pokemon leauge. In this league, trainers can use any number of pokemon.
