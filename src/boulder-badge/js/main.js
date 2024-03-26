@@ -39,6 +39,7 @@ function charmanderBattle(currentTemperature) {
         console.log('Charmander cannot Battle!')
     }
 }
+charmanderBattle(33)
 
 
 //Loops
