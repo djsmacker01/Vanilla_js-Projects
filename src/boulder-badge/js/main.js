@@ -31,7 +31,7 @@ function convertFahrenheitToCelsius(temperature) {
 }
 
 function charmanderBattle(currentTemperature) {
-    
+    let convert = convertFahrenheitToCelsius(currentTemperature)
 }
 
 
