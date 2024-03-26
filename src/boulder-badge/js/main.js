@@ -25,8 +25,13 @@ console.log('Total Candies',totalCandies)
 
 
 function convertFahrenheitToCelsius(temperature) { 
-    let fahrenheitToDegree = (temperature - 32) * 5/9
+    let fahrenheitToDegree = (temperature - 32) * 5 / 9
+    return fahrenheitToDegree
 
+}
+
+function charmanderBattle(currentTemperature) {
+    
 }
 
 
