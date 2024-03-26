@@ -13,7 +13,7 @@ let caterpieCandies = 7 - 1
 let weedleCandies = 7 - 1
 let totalCandies = bulbasaurCandies + caterpieCandies + weedleCandies
 
-console.log('Total Candies ',totalCandies)
+console.log('Total Candies',totalCandies)
 
 
 //Conditionals And Functions
