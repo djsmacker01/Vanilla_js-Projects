@@ -24,6 +24,11 @@ console.log('Total Candies',totalCandies)
 // not charmander can battle
 
 
+function convertFahrenheitToCelsius(temperature) { 
+    let fahrenheitToDegree = (temperature - 32) * 5/9
+
+}
+
 
 //Loops
 //You have joined an undeground pokemon leauge. In this league, trainers can use any number of pokemon.
