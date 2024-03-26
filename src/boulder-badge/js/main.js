@@ -9,7 +9,7 @@
 //that sums all the rare candies you would need. 
 
 let bulbasaurCandies = 16 - 5
-let caterpieCandies = 7 - 7
+let caterpieCandies = 7 - 1
 let weedleCandies = 7 - 1
 
 
