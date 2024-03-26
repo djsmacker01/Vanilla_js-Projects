@@ -8,6 +8,7 @@
 //create a fourth variable named totalCandies 
 //that sums all the rare candies you would need. 
 
+let 
 
 
 //Conditionals And Functions
