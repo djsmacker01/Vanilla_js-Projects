@@ -4,8 +4,11 @@
 //You have bulbasaur which is at level 5 and evolves at level 16, caterpie which is at level 1 and evolves at 
 //level 7, and weedle which is at level 1 and evolves at level 7. 
 //Create three variables to store the number of rare candies each of your pokemon would need to 
-//evolve(rare candies increase your level by one).Finally, create a fourth variable named totalCandies 
+//evolve(rare candies increase your level by one).Finally, 
+//create a fourth variable named totalCandies 
 //that sums all the rare candies you would need. 
+
+
 
 //Conditionals And Functions
 //You have a charmander in your party. Charmander can only battle if the temperature is above 0 degrees celcius.
