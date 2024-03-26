@@ -3,7 +3,7 @@
 // Please create a function that reverses your list and prints it to the console. 
 
 function reversePartyOrder(partyList) {
-    console.log(partyList.reverse())
+    console.log('PartyList :', partyList.reverse() )
 }
 
 reversePartyOrder['Maths','English','Physics']
