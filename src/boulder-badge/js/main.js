@@ -8,7 +8,9 @@
 //create a fourth variable named totalCandies 
 //that sums all the rare candies you would need. 
 
-let 
+let bulbasaurCandies = 16 - 5
+let caterpieCandies = 7 - 7
+let weedleCandies = 7 - 1
 
 
 //Conditionals And Functions
