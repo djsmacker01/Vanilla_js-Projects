@@ -4,7 +4,8 @@
 // console.log("--------------------------------")
 function reversePartyOrder(partyList) {
    
-    console.log(partyList.reverse() )
+    console.log(partyList.reverse())
+    // 
 }
 
 reversePartyOrder(['Maths','English','Physics'])
