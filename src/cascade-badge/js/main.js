@@ -9,7 +9,7 @@ function reversePartyOrder(partyList) {
 }
 
 reversePartyOrder(['Maths', 'English', 'Physics', 'Geography'])
-// reversePartyOrder(['Maths', 'English', 'Physics', 'Ge'])
+reversePartyOrder(['Maths', 'English', 'Physics', 'Ge'])
 
 //Given two integer arrays a, b, both of length >= 1,
 // create a program that returns true if the sum of the squares of each element 
