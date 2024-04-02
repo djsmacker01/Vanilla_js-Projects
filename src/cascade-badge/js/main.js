@@ -34,10 +34,11 @@ function isMultiple(arr) {
 //Given an array of integers as strings and numbers, return the sum of the array
 //values as if all were numbers.Return your answer as a number.
 
-function sumArrayValue(arr) { 
-    return arr.reduce((acc,c)=> acc + Number(c),0)
-}
+// function sumArrayValue(arr) { 
+//     return arr.reduce((acc,c)=> acc + Number(c),0)
+// }
 
-console.log(sumArrayValue(['2', '3', '7', 9]))
+// console.log(sumArrayValue(['2', '3', '7', 9]))
 
-const s = r=> r.reduce((a,c)=>+a+ +c)
+const s = r => r.reduce((a, c) => +a + +c)
+console.log(s(['2', '3', '7', 19]))
