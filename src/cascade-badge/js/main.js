@@ -16,7 +16,7 @@ reversePartyOrder(['Maths', 'English', 'Physics', 'Ge'])
 // in a is strictly greater than the sum of the cubes of each element in b.
 
 function compareSquaresAndCubes(a, b) {
-    return a.reduce() > b.reduce();
+    return a.reduce(()) > b.reduce();
 }
 
 //Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
