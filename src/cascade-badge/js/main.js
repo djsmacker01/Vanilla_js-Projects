@@ -19,6 +19,8 @@ function compareSquaresAndCubes(a, b) {
     return a.reduce((acc,c)=> acc + c ** 2, 0) > b.reduce((acc,c)=> acc + c ** 3, 0);
 }
 
+console.log(compareSquaresAndCubes([4,5,3,4], [2,2,2]))
+
 //Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
 // Some cases:
 // [22, -6, 32, 82, 9, 25] =>  [-6, 32, 25]
