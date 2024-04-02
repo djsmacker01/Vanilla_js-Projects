@@ -35,7 +35,7 @@ function isMultiple(arr) {
 //values as if all were numbers.Return your answer as a number.
 
 function sumArrayValue(arr) { 
-    return arr.reduce((acc,c)=> acc + c, 0)
+    return arr.reduce((acc,c)=> acc + Number(c),0)
 }
 
 console.log(sumArrayValue(['2', '3', '7', 9]))
