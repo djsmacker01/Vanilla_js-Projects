@@ -38,4 +38,4 @@ function sumArrayValue(arr) {
     return arr.reduce((acc,c)=> acc + c, 0)
 }
 
-sumArrayValue(['2', '3', '7', 9])
+console.log(sumArrayValue(['2', '3', '7', 9]))
