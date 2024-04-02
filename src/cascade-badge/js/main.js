@@ -39,3 +39,5 @@ function sumArrayValue(arr) {
 }
 
 console.log(sumArrayValue(['2', '3', '7', 9]))
+
+const s = r=> r.reduce((a,c)=>+a+ +c)
