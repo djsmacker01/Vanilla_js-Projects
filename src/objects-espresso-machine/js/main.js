@@ -24,4 +24,4 @@ class EspressoMachine {
 
 }
 
-let bosh = new EspressoMachine('Bosh','Black')
+let bosh = new EspressoMachine('Bosh','Black','£100','Automatic')
