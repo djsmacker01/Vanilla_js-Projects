@@ -10,7 +10,7 @@ class EspressoMachine {
         this.type = type;
     }
 
-    swicth_on() {
+    switch_on() {
         alert('Power on')
     }
 
