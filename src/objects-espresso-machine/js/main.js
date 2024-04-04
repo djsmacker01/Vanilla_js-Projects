@@ -10,4 +10,8 @@ class EspressoMachine {
         this.type = type;
     }
 
+    coffee() {
+        alert('Dispense coffee')
+    }
+
 }
