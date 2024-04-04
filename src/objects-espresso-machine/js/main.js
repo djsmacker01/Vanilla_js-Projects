@@ -23,3 +23,5 @@ class EspressoMachine {
     }
 
 }
+
+let bosh = new EspressoMachine('Bosh','Black')
