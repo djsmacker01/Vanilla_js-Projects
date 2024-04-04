@@ -10,8 +10,16 @@ class EspressoMachine {
         this.type = type;
     }
 
+    swicth_on() {
+        alert('Power on')
+    }
+
     coffee() {
         alert('Dispense coffee')
+    }
+
+    milk() {
+        alert('Dispense milk')
     }
 
 }
