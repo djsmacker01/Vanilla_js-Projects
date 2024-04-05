@@ -45,4 +45,5 @@ aurora.health -= 20;
 //aurora gain a  strength
 aurora.strength += 10;
 
-//
+//aurora learn new skills
+aurora.xp += 15;
