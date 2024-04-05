@@ -62,6 +62,6 @@ const glacius = {
   //return description
 
   describe() {
-   
+    return `${this.name} has ${this.health} health point, ${this.strength} as strength and ${this.xp} XP point`
   }
 }
