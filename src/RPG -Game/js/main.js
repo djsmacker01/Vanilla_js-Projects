@@ -68,5 +68,11 @@ const glacius = {
 
 
 class Character{
+  constructor(name, health, strength, xp) { 
+    this.name = name;
+    this.health = health;
+    this.strength = strength;
+    this.xp = xp;
+  }
   
 }
