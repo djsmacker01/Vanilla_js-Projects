@@ -58,5 +58,10 @@ const glacius = {
   strength: 30,
   xp: 0,
   
-  
+
+  //return description
+
+  describe() {
+   
+  }
 }
