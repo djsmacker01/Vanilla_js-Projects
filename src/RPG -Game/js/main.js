@@ -122,6 +122,13 @@ console.log(jacky.describe());
 const monster = new Character('Spike', 40, 20)
 console.log("A wild monster has appeared: it's name " + monster.name)
 
+monster.attack(brucelee);
+monster.attack(jacky);
+monster.attack(jamesBonds);
+
+brucelee.attack(monster);
+jacky.attack(monster)
+jamesBond.attack(monster)
 
 
 // brucelee.health -= 10
