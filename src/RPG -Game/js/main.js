@@ -13,13 +13,13 @@
 //     return eNum
 // }
 
-function evenNumber(num) {
-    let eNum = []
+// function evenNumber(num) {
+//     let eNum = []
 
-    num.forEach(n => {
-        if (n % 2 === 0) {
-      eNum.push(n)
-      }
-    })
-    return eNum
-}
+//     num.forEach(n => {
+//         if (n % 2 === 0) {
+//       eNum.push(n)
+//       }
+//     })
+//     return eNum
+// }
