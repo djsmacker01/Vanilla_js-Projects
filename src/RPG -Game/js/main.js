@@ -124,7 +124,7 @@ console.log("A wild monster has appeared: it's name " + monster.name)
 
 monster.attack(brucelee);
 monster.attack(jacky);
-monster.attack(jamesBonds);
+monster.attack(jamesBond);
 
 brucelee.attack(monster);
 jacky.attack(monster)
