@@ -41,3 +41,8 @@ const aurora = {
 
 //Aurora is harmed by arrow
 aurora.health -= 20;
+
+//aurora gain a  strength
+aurora.strength += 10;
+
+//
