@@ -28,5 +28,10 @@
 //Aurora with four properties and method
 
 const aurora = {
-  
+  name: 'Aurora',
+  health: 150,
+  strength: 25,
+  xp: 0,
+
+  // 
 }
