@@ -89,10 +89,6 @@ brucelee.health -= 10
 brucelee.strength += 20
 brucelee.xp += 20
 
-
-
-
-
 console.log(brucelee.describe())
 console.log(jacky.describe())
 console.log(jamesBond.describe())
