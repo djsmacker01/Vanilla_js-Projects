@@ -84,19 +84,30 @@ class Character{
   
   //Attack a player
   attack(target) {
-    if (target.health > 0) { 
-     const damage = this.health
-    }
-      
-    } else {
-      
+    if (this.health > 0) { 
+      const damage = this.strength
+      console.log(`${this.name} attack ${target.name} and causes ${damage} damage point`)
+      target.health -= damage;
+      if (target.health > 0) {
+        console.log(`${target.name} has ${target.health} health points left`)
+      }
+      else {
+        target.health = 0
+        const bonusXP = 10
+        console.log(`${this.name} eliminated ${target.name} and wins ${bonusXP} experience points`);
+        this.xp += bonusXP
+      }
+
+  
+    } else{
+      console.log(`${this.name} can't attack (They've been eliminated)`);
     }
   }
-  describe() {
+
+   describe() {
     return `${this.name} has ${this.health} health point, ${this.strength} as strength and ${this.xp} XP point`
   }
  
-
 }
 
 const brucelee = new Character('Aurora', 150, 25)
