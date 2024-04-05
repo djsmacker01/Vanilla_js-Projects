@@ -74,5 +74,7 @@ class Character{
     this.strength = strength;
     this.xp = xp;
   }
-  
+
+ 
+
 }
