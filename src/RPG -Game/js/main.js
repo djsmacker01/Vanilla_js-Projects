@@ -23,3 +23,10 @@
 //     })
 //     return eNum
 // }
+
+//Create a minimalist RPG games. It create an object literal named
+//Aurora with four properties and method
+
+const aurora = {
+  
+}
