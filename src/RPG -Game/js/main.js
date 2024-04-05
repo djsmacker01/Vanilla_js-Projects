@@ -33,5 +33,8 @@ const aurora = {
   strength: 25,
   xp: 0,
 
-  // 
+  // Return the character description
+  describe() {
+    return `${this.name} has ${this.health} health point, ${this.strength} as strength and ${this.xp} XP point`
+  }
 }
