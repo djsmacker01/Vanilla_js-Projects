@@ -80,3 +80,7 @@ class Character{
  
 
 }
+
+const brucelee = new Character('Aurora', 150, 25)
+const jamesBond = new Character('JamesBonds', 130,30)
+const jacky = new Character('JackieChain', 400,60)
