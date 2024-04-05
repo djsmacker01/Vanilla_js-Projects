@@ -53,5 +53,10 @@ console.log(aurora.describe());
 //let add more characters to make it more interesting
 
 const glacius = {
-  name: 'Sindi',
+  name: 'Glacius',
+  health: 130,
+  strength: 30,
+  xp: 0,
+  
+  
 }
