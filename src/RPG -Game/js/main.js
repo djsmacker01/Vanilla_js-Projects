@@ -48,7 +48,7 @@ aurora.strength += 10;
 //aurora learn new skills
 aurora.xp += 15;
 
-console.log(aurora.describe());
+// console.log(aurora.describe());
 
 //let add more characters to make it more interesting
 
@@ -72,7 +72,7 @@ class Character{
     this.name = name;
     this.health = health;
     this.strength = strength;
-    this.xp = xp;
+    this.xp = 0;
   }
   describe() {
     return `${this.name} has ${this.health} health point, ${this.strength} as strength and ${this.xp} XP point`
