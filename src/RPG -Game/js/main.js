@@ -119,10 +119,14 @@ console.log(brucelee.describe());
 console.log(jamesBond.describe());
 console.log(jacky.describe());
 
+const monster = new Character('Spike', 40, 20)
+console.log("A wild monster has appeared: it's name " + monster.name)
 
-brucelee.health -= 10
-brucelee.strength += 20
-brucelee.xp += 20
+
+
+// brucelee.health -= 10
+// brucelee.strength += 20
+// brucelee.xp += 20
 
 console.log(brucelee.describe())
 console.log(jacky.describe())
