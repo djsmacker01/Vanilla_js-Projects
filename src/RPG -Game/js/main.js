@@ -114,6 +114,12 @@ const brucelee = new Character('Aurora', 150, 25)
 const jamesBond = new Character('JamesBonds', 130,30)
 const jacky = new Character('JackieChain', 400, 60)
 
+console.log("Welcome to the adventure! Here are our heroes:");
+console.log(brucelee.describe());
+console.log(jamesBond.describe());
+console.log(jacky.describe());
+
+
 brucelee.health -= 10
 brucelee.strength += 20
 brucelee.xp += 20
