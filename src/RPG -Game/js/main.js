@@ -73,6 +73,24 @@ class Character{
     this.health = health;
     this.strength = strength;
     this.xp = 0;
+  
+  }
+      
+// Following is how a fight will be handled.If attacked,
+// a character sees their life points decrease from the strength 
+// of the attacker.If its health value falls below zero, the character 
+// is considered dead and cannot attack anymore.Its vanquisher receives
+  //  a fixed number of 10 experience points
+  
+  //Attack a player
+  attack(target) {
+    if (target.health > 0) { 
+     const damage = this.health
+    }
+      
+    } else {
+      
+    }
   }
   describe() {
     return `${this.name} has ${this.health} health point, ${this.strength} as strength and ${this.xp} XP point`
@@ -93,8 +111,4 @@ console.log(brucelee.describe())
 console.log(jacky.describe())
 console.log(jamesBond.describe())
 
-// Following is how a fight will be handled.If attacked,
-// a character sees their life points decrease from the strength 
-// of the attacker.If its health value falls below zero, the character 
-// is considered dead and cannot attack anymore.Its vanquisher receives
-//  a fixed number of 10 experience points.
+
