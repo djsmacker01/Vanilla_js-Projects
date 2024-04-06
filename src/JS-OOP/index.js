@@ -26,7 +26,7 @@ function createCircle(radius) {
 const circle = createCircle(1);
 circle.draw()
 
-constructors Function
+// constructors Function
 
 function Circle(radius) {
     // console.log('this',this)
