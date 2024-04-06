@@ -12,7 +12,7 @@ const circle = {
 
 // circle.draw()
 
-// Factory function
+// Factory or construction function 
 
 // function createCircle(radius) {
 //     return {
