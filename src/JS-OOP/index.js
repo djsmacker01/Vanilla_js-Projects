@@ -14,19 +14,19 @@
 
 // Factory function 
 
-// function createCircle(radius) {
-//     return {
-//         radius,
-//         draw: function () {
-//             console.log("createCircle");
-//         }
-//     }
+function createCircle(radius) {
+    return {
+        radius,
+        draw: function () {
+            console.log("createCircle");
+        }
+    }
         
-// }
-// const circle = createCircle(1);
-// circle.draw()
+}
+const circle = createCircle(1);
+circle.draw()
 
-// constructors Function
+constructors Function
 
 function Circle(radius) {
     // console.log('this',this)
