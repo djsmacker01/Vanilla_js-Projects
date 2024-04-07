@@ -110,7 +110,7 @@ else {
 //     obj.value++
 // }
 // increaseNum(obj)
-console.log(obj)
+// console.log(obj)
 
 //  Add or removing property
 
