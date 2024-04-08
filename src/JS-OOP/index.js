@@ -124,6 +124,6 @@ function calculateProfit(rate, numberOfHours, taxes) {
     return rate * numberOfHours * (1 - taxes)
 }
 
-function holdTaxes() {
-    
+function holdTaxes(profitMade) {
+    return hourlyRate * hours - profitMade
 }
