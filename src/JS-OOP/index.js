@@ -127,3 +127,5 @@ function calculateProfit(rate, numberOfHours, taxes) {
 function holdTaxes(profitMade) {
     return hourlyRate * hours - profitMade
 }
+
+let profit = calculateProfit(hourlyRate, hours, taxRate)
