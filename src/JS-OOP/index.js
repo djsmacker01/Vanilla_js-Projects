@@ -124,4 +124,6 @@ function calculateProfit(rate, numberOfHours, taxes) {
     return rate * numberOfHours * (1 - taxes)
 }
 
-alert(calculateProfit(hourlyRate, numberOfHour, taxes)); //
+function holdTaxes() {
+    
+}
