@@ -56,27 +56,27 @@ function Circle(radius) {
     })
 }
 const anotherCircle = new Circle(1)
-anotherCircle.defaultLocation = 0
-const anotherCircle1 = new Circle(2)
+// anotherCircle.defaultLocation = 0
+// const anotherCircle1 = new Circle(2)
 
 
 //  Add or removing property
-anotherCircle.location = {
-    x: 1,
-    y:2
-}
-// Enumerating properties, i.e looping through an object
-for (let key in anotherCircle) {
-    // to get only the properties
-    if (typeof anotherCircle[key] !== 'function') {
+// anotherCircle.location = {
+//     x: 1,
+//     y:2
+// }
+// // Enumerating properties, i.e looping through an object
+// for (let key in anotherCircle) {
+//     // to get only the properties
+//     if (typeof anotherCircle[key] !== 'function') {
         
-        console.log(key, anotherCircle[key])
-    }
-}
-console.log('...........................')
-// To get all keys in object. This approach is used to separate properties from method
-const keys = Object.keys(anotherCircle1)
-console.log(keys)
+//         console.log(key, anotherCircle[key])
+//     }
+// }
+// console.log('...........................')
+// // To get all keys in object. This approach is used to separate properties from method
+// const keys = Object.keys(anotherCircle1)
+// console.log(keys)
 
 
 
