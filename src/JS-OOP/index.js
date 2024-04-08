@@ -131,3 +131,6 @@ function holdTaxes(profitMade) {
 let profit = calculateProfit(hourlyRate, hours, taxRate)
 
 let taxHeld = holdTaxes(profit)
+
+console.log(taxHeld)
+console.log(profit)
