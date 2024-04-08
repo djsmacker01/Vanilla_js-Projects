@@ -120,6 +120,6 @@ let hourlyRate = 250
 let hours = 160
 let taxRate = 0.34
 
-function calculateProfit() {
+function calculateProfit(rate, numberOfHours, taxes) {
     
 }
