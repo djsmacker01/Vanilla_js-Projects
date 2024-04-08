@@ -28,34 +28,34 @@
 
 // constructors Function
 
-function Circle(radius) {
-    // console.log('this',this)
-    this.radius = radius
-    let defaultLocation = { x: 0, y: 0, z: 0 }
-    this.getDefaultLocation = function () {
-        return defaultLocation
-    }
-    let computeLocation = function (factor) {
-        //
-    }
-    this.draw = function () {
-        computeLocation(0.1)
-        console.log("createCircle")
+// function Circle(radius) {
+//     // console.log('this',this)
+//     this.radius = radius
+//     let defaultLocation = { x: 0, y: 0, z: 0 }
+//     this.getDefaultLocation = function () {
+//         return defaultLocation
+//     }
+//     let computeLocation = function (factor) {
+//         //
+//     }
+//     this.draw = function () {
+//         computeLocation(0.1)
+//         console.log("createCircle")
 
-    }
-    Object.defineProperty(this, 'defaultLocation', {
-        get: function () {
-            return defaultLocation
-        },
-        set: function (value) {
-            if (!value.x || !value.y)
-                throw new Error("Invalid location")
+//     }
+//     Object.defineProperty(this, 'defaultLocation', {
+//         get: function () {
+//             return defaultLocation
+//         },
+//         set: function (value) {
+//             if (!value.x || !value.y)
+//                 throw new Error("Invalid location")
 
-            defaultLocation = value
-        }
-    })
-}
-const anotherCircle = new Circle(1)
+//             defaultLocation = value
+//         }
+//     })
+// }
+// const anotherCircle = new Circle(1)
 // anotherCircle.defaultLocation = 0
 // const anotherCircle1 = new Circle(2)
 
