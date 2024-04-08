@@ -121,5 +121,5 @@ let hours = 160
 let taxRate = 0.34
 
 function calculateProfit(rate, numberOfHours, taxes) {
-    
+    return rate * numberOfHours * (1 - taxes)
 }
