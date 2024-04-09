@@ -156,3 +156,15 @@ let smith = new AgencyContractor(250, 160, 0.35)
 
 console.log(smith.clientInvoice())
 console.log(smith.calculateProfit())
+
+// Inheritance
+
+class AnimalKingdom {
+    constructor(name) {
+        this.name = name
+    }
+    speak() { 
+        console.log(`${this.name} makes a sound`)
+    }
+}
+let dog = new AnimalKingdom(dog)
