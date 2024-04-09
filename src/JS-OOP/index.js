@@ -152,3 +152,4 @@ function AgencyContractor(hourlyRate, hours, taxRate) {
 
 let smith = AgencyContractor(250, 160, 0.35)
 
+console.log(smith.clientInvoice())
