@@ -167,6 +167,14 @@ class AnimalKingdom {
         console.log(`${this.name} makes a sound`)
     }
 }
+
+class Dog extends AnimalKingdom { 
+    constructor(name, breed) { 
+        super(name)
+        this.breed = breed
+
+    }
+}
 let dog = new AnimalKingdom('dog')
 let cat = new AnimalKingdom('cat')
 
