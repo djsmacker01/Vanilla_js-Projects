@@ -136,8 +136,11 @@
 // console.log(profit
 
 function AgencyContractor(hourlyRate, hours, taxRate) {
-    this.hourlyRate = hourlyRate
     this.hours = hours
     this.taxRate = taxRate
-    l
+    let rate = hourlyRate
+    
+    let calculateProfit = function () {
+        return rate * this.hours * (1 - this.taxRate)
+    }
 }
