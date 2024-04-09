@@ -182,4 +182,4 @@ let cat = new AnimalKingdom('cat')
 
 console.log(dog.speak())
 console.log(cat.speak())
-console.log(simba.breed)
+console.log(simba)
