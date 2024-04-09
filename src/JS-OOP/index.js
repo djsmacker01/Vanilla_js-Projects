@@ -139,4 +139,5 @@ function AgencyContractor(hourlyRate, hours, taxRate) {
     this.hourlyRate = hourlyRate
     this.hours = hours
     this.taxRate = taxRate
+    l
 }
