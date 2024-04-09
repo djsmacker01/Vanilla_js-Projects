@@ -135,6 +135,6 @@
 // console.log(taxHeld)
 // console.log(profit
 
-function AgencyContractor() {
+function AgencyContractor(hourlyRate, hours, taxRate) {
     
 }
