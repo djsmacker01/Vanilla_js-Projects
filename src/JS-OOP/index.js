@@ -136,6 +136,7 @@
 // console.log(profit
 
 function AgencyContractor(hourlyRate, hours, taxRate) {
+
     this.hours = hours
     this.taxRate = taxRate
     let rate = hourlyRate
@@ -144,12 +145,12 @@ function AgencyContractor(hourlyRate, hours, taxRate) {
         return rate * this.hours * (1 - this.taxRate)
     }
 
-    let clientInvoice = function () { 
+    this.clientInvoice = function () { 
         return `Your Invoice is ${rate * this.hours}`
     }
 
 }
 
-let smith = AgencyContractor(250, 160, 0.35)
+let smith = new AgencyContractor(250, 160, 0.35)
 
-console.log(smith.clientInvoice())
+console.log( smith.clientInvoice() )
