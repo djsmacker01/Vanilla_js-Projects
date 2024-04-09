@@ -135,27 +135,27 @@
 // console.log(taxHeld)
 // console.log(profit
 
-function AgencyContractor(hourlyRate, hours, taxRate) {
+// function AgencyContractor(hourlyRate, hours, taxRate) {
 
-    this.hours = hours
-    this.taxRate = taxRate
-    // let rate = hourlyRate
-    this.hourlyRate = hourlyRate
+//     this.hours = hours
+//     this.taxRate = taxRate
+//     // let rate = hourlyRate
+//     this.hourlyRate = hourlyRate
 
-    this.calculateProfit = function () {
-        return hourlyRate * this.hours * (1 - this.taxRate)
-    }
+//     this.calculateProfit = function () {
+//         return hourlyRate * this.hours * (1 - this.taxRate)
+//     }
 
-    this.clientInvoice = function () { 
-        return `Your Invoice is ${hourlyRate * this.hours}`
-    }
+//     this.clientInvoice = function () { 
+//         return `Your Invoice is ${hourlyRate * this.hours}`
+//     }
 
-}
+// }
 
-let smith = new AgencyContractor(250, 160, 0.35)
+// let smith = new AgencyContractor(250, 160, 0.35)
 
-console.log(smith.clientInvoice())
-console.log(smith.calculateProfit())
+// console.log(smith.clientInvoice())
+// console.log(smith.calculateProfit())
 
 // Inheritance
 
