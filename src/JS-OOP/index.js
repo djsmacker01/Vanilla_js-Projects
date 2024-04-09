@@ -143,5 +143,9 @@ function AgencyContractor(hourlyRate, hours, taxRate) {
     let calculateProfit = function () {
         return rate * this.hours * (1 - this.taxRate)
     }
-    
+
+    let clientInvoice = function () { 
+        return `Your Invoice is ${rate * this.hours}`
+    }
+
 }
