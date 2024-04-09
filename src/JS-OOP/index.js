@@ -116,21 +116,21 @@
 
 
 
-let hourlyRate = 250
-let hours = 160
-let taxRate = 0.34
+// let hourlyRate = 250
+// let hours = 160
+// let taxRate = 0.34
 
-function calculateProfit(rate, numberOfHours, taxes) {
-    return rate * numberOfHours * (1 - taxes)
-}
+// function calculateProfit(rate, numberOfHours, taxes) {
+//     return rate * numberOfHours * (1 - taxes)
+// }
 
-function holdTaxes(profitMade) {
-    return hourlyRate * hours - profitMade
-}
+// function holdTaxes(profitMade) {
+//     return hourlyRate * hours - profitMade
+// }
 
-let profit = calculateProfit(hourlyRate, hours, taxRate)
+// let profit = calculateProfit(hourlyRate, hours, taxRate)
 
-let taxHeld = holdTaxes(profit)
+// let taxHeld = holdTaxes(profit)
 
-console.log(taxHeld)
-console.log(profit)
+// console.log(taxHeld)
+// console.log(profit)
