@@ -12,7 +12,7 @@
 
 // circle.draw()
 
-// Factory function 
+// Factory function
 
 // function createCircle(radius) {
 //     return {
@@ -133,4 +133,8 @@
 // let taxHeld = holdTaxes(profit)
 
 // console.log(taxHeld)
-// console.log(profit)
+// console.log(profit
+
+function AgencyContractor() {
+    
+}
