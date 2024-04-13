@@ -158,7 +158,6 @@
 // console.log(smith.calculateProfit())
 
 // Inheritance
-
 class AnimalKingdom {
     constructor(name) {
         this.name = name
