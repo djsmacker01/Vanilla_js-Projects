@@ -172,7 +172,6 @@ class Dog extends AnimalKingdom {
     constructor(name, breed) { 
         super(name)
         this.breed = breed
-
     }
 }
 
