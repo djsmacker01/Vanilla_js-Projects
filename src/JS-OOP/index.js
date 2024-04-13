@@ -167,6 +167,7 @@ class AnimalKingdom {
     }
 }
 
+
 class Dog extends AnimalKingdom { 
     constructor(name, breed) { 
         super(name)
