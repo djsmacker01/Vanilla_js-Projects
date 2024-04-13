@@ -177,6 +177,7 @@ class Dog extends AnimalKingdom {
 
 
 
+
 // let simba = new Dog('simba', 'sheperd')
 let dog = new AnimalKingdom('dog')
 let cat = new AnimalKingdom('cat')
