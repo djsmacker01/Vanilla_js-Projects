@@ -159,6 +159,7 @@
 
 // Inheritance
 class AnimalKingdom {
+    
     constructor(name) {
         this.name = name
     }
