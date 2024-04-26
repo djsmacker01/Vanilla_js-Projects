@@ -189,6 +189,9 @@ class Dog extends AnimalKingdom {
     }
 }
 
+class Cat extends AnimalKingdom() {
+    
+}
 
 // let simba = new Dog('simba', 'sheperd')
 let dog = new AnimalKingdom('dog')
