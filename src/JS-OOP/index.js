@@ -177,10 +177,10 @@ class AnimalKingdom {
 class Dog extends AnimalKingdom { 
     constructor(name, breed) { 
         super(name)
-        this.breed = breed
+        this._breed = breed
     }
     get breed() {
-        return this.breed
+        return this._breed
     }
 
     speak() {
@@ -190,7 +190,16 @@ class Dog extends AnimalKingdom {
 }
 
 class Cat extends AnimalKingdom() {
-    
+    constructor(name, breed) {
+        super(name)
+        this.breed = breed
+    }
+    get breed() {
+
+     }
+    speak() {
+
+     }
 }
 
 // let simba = new Dog('simba', 'sheperd')
