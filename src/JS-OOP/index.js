@@ -166,10 +166,9 @@ class AnimalKingdom {
     speak() { 
         console.log(`${this.name} makes a sound`)
     }
-    
+
 
 }
-
 
 class Dog extends AnimalKingdom { 
     constructor(name, breed) { 
@@ -177,7 +176,6 @@ class Dog extends AnimalKingdom {
         this.breed = breed
     }
 }
-
 
 
 
