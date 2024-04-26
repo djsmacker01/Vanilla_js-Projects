@@ -165,7 +165,7 @@ class AnimalKingdom {
     }
 
     speak() { 
-        console.log(`${this.name} makes a sound`)
+        console.log(`${this._name} makes a sound`)
     }
 
 
