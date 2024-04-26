@@ -182,6 +182,11 @@ class Dog extends AnimalKingdom {
     get breed() {
         return this.breed
     }
+
+    speak() {
+        super.speak()
+        console.log(`${this.name} barks`)
+    }
 }
 
 
