@@ -179,6 +179,9 @@ class Dog extends AnimalKingdom {
         super(name)
         this.breed = breed
     }
+    get breed() {
+        return this.breed
+    }
 }
 
 
