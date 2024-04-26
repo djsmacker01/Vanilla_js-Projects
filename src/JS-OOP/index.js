@@ -161,7 +161,7 @@
 class AnimalKingdom {
 
     constructor(name) {
-        this.name = name
+        this._name = name
     }
 
     speak() { 
