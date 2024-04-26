@@ -199,7 +199,7 @@ class Cat extends AnimalKingdom() {
      }
     speak() {
         super.speak()
-        console.log(`${this.name} Mew!`)
+        console.log(`${this.name} Meow!`)
      }
 }
 
