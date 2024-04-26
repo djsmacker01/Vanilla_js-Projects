@@ -159,7 +159,7 @@
 
 // Inheritance
 class AnimalKingdom {
-    
+
     constructor(name) {
         this.name = name
     }
@@ -177,7 +177,6 @@ class Dog extends AnimalKingdom {
         this.breed = breed
     }
 }
-
 
 
 // let simba = new Dog('simba', 'sheperd')
