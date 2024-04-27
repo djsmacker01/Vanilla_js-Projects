@@ -215,7 +215,8 @@ let salem = new Cat('Salem','british shorthair')
 // console.log(dog.speak())
 // console.log(cat.speak())
 // console.log(simba)
-let farm = [simba, machi,salem]
+let farm = [simba, machi, salem]
+
 for (a of farm) {
     a.speak()
 }
