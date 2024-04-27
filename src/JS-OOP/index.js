@@ -203,11 +203,15 @@ class Cat extends AnimalKingdom() {
      }
 }
 
+
+let simba = new Dog('Simba', 'Shepard')
+let machi = new Dog('The machine', 'pitbull')
+let salem = new Cat('Salem','british shorthair')
 // let simba = new Dog('simba', 'sheperd')
-let dog = new AnimalKingdom('dog')
-let cat = new AnimalKingdom('cat')
+// let dog = new AnimalKingdom('dog')
+// let cat = new AnimalKingdom('cat')
 
 
-console.log(dog.speak())
-console.log(cat.speak())
-console.log(simba)
+// console.log(dog.speak())
+// console.log(cat.speak())
+// console.log(simba)
