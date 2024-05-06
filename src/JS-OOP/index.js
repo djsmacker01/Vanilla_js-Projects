@@ -191,6 +191,7 @@ class Dog extends AnimalKingdom {
 
 class Cat extends AnimalKingdom {
     constructor(name, breed) {
+        
         super(name)
         this._breed = breed
     }
