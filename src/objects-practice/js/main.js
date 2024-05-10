@@ -69,3 +69,21 @@ class Contractor {
         console.log(`Hello, I am on the ${this._role} team at #100Devs!`)
     }
 }
+
+class Frontend extends Contractor { 
+
+    constructor(name, role, tech) {
+        super(name, role)
+        this._tech = tech
+    }
+
+    get tech() {
+        return this._tech
+    }
+
+     sayHell() {
+        console.log(`Hello, I am on the ${this._role} team at #100Devs! and i use ${this._tech}`)
+    }
+
+}
+
