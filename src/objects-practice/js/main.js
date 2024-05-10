@@ -86,4 +86,17 @@ class Frontend extends Contractor {
     }
 
 }
+class Backend extends Contractor { 
+    constructor(name, role, tech) {
+        super(name, role)
+        this._tech = tech
+    }
+    
+    get tech() {
+        this._tech 
+    }
 
+     sayHell() {
+        console.log(`Hello, I am on the ${this._role} team at #100Devs! and i use ${this._tech}`)
+    }
+}
