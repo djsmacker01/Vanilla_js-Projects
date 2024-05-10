@@ -52,15 +52,20 @@
 
 
 class Contractor {
-    constructor(name, role) { 
+    constructor(name, role){
         this._name = name
         this._role = role
     }
     get name() {
         return this._name
+    
     }
 
     get role() {
         return this._role
+    }
+
+    sayHell() {
+        console.log(`Hello, I am on the ${this._role} team at #100Devs!`)
     }
 }
