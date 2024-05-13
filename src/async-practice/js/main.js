@@ -111,13 +111,13 @@ function houseThree(){
 // houseFive
 //     .then(data => console.log(data))
 
-houseOne()
-    .then(data => console.log(data))
-    .then(houseTwo)
-    .then(data => console.log(data))
-    .then(houseThree)
-    .then(data => console.log(data))
-    .catch(err => console.log(err))
+// houseOne()
+//     .then(data => console.log(data))
+//     .then(houseTwo)
+//     .then(data => console.log(data))
+//     .then(houseThree)
+//     .then(data => console.log(data))
+//     .catch(err => console.log(err))
 
 //Code 07
 // function houseOne(){
@@ -154,10 +154,10 @@ houseOne()
 // getPaid()
 
 //Code 08
-// async function getACuteDogPhoto(){
-//     const res = await fetch('https://dog.ceo/api/breeds/image/random')
-//     const data = await res.json()
-//     console.log(data)
-// }
-// getACuteDogPhoto()
+async function getACuteDogPhoto(){
+    const res = await fetch('https://dog.ceo/api/breeds/image/random')
+    const data = await res.json()
+    console.log(data)
+}
+getACuteDogPhoto()
 
