@@ -157,7 +157,7 @@ function houseThree(){
 async function getACuteDogPhoto() {
     try {
         const res = await fetch('https://dog.ceo/api/breeds/image/random')
-    const data = await res.json()
+        const data = await res.json()
     
     console.log(data)
     }
