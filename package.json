@@ -12,6 +12,7 @@
     "vite": "^5.0.8"
   },
   "dependencies": {
+    "figlet": "^1.7.0",
     "normalize.css": "^8.0.1"
   }
 }
